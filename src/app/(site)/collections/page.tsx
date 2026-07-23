@@ -4,7 +4,7 @@ import { Reveal, RevealStagger, RevealItem } from "@/components/fx";
 import { listCatalog } from "@/lib/catalog";
 import { COLLECTIONS } from "@/lib/collections";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "Collections",

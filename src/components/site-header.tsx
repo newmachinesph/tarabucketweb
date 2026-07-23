@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Menu, Search, X } from "lucide-react";
 import { useScroll, useMotionValueEvent } from "motion/react";
 import { Logo } from "./logo";
@@ -14,6 +14,16 @@ export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
   const { scrollY } = useScroll();
   useMotionValueEvent(scrollY, "change", (y) => setScrolled(y > 24));
+
+  // Close the mobile menu on Escape while it's open.
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [open]);
 
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
@@ -59,8 +69,9 @@ export function SiteHeader() {
           </Link>
           <button
             onClick={() => setOpen((v) => !v)}
-            aria-label="Toggle menu"
+            aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
+            aria-controls="mobile-menu"
             className="rounded-full p-2.5 text-ink transition-colors hover:bg-ink/5 md:hidden"
           >
             {open ? <X size={22} /> : <Menu size={22} />}
@@ -69,7 +80,7 @@ export function SiteHeader() {
       </div>
 
       {open && (
-        <nav className="border-t border-line bg-white md:hidden">
+        <nav id="mobile-menu" className="border-t border-line bg-white md:hidden">
           <div className="container-tara flex flex-col py-3">
             {SITE.nav.map((item) => (
               <Link

@@ -1,4 +1,4 @@
-import { requireAdmin } from "@/lib/auth";
+import { requireUser } from "@/lib/auth";
 import { AdminNav } from "@/components/admin/admin-nav";
 
 export const dynamic = "force-dynamic";
@@ -8,7 +8,8 @@ export default async function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const user = await requireAdmin();
+  // Any authenticated editor may enter the CMS; admin-only areas gate themselves.
+  const user = await requireUser();
   return (
     <div className="min-h-screen bg-surface">
       <AdminNav userName={user.name ?? "Editor"} />

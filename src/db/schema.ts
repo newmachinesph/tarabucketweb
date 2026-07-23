@@ -34,6 +34,8 @@ export const posts = pgTable(
     index('posts_status_idx').on(t.status),
     index('posts_category_idx').on(t.category),
     index('posts_published_idx').on(t.publishedAt),
+    // GIN index for tag array-contains queries (getPostsByTags).
+    index('posts_tags_idx').using('gin', t.tags),
   ],
 );
 
@@ -45,16 +47,20 @@ export const subscribers = pgTable('subscribers', {
 });
 
 // Reader-submitted bucket-list stories, reviewed in the admin.
-export const storySubmissions = pgTable('story_submissions', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  name: text('name').notNull(),
-  email: text('email').notNull(),
-  location: text('location').notNull().default(''),
-  title: text('title').notNull(),
-  story: text('story').notNull(),
-  status: text('status').notNull().default('new'), // 'new' | 'published' | 'archived'
-  createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
-});
+export const storySubmissions = pgTable(
+  'story_submissions',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    name: text('name').notNull(),
+    email: text('email').notNull(),
+    location: text('location').notNull().default(''),
+    title: text('title').notNull(),
+    story: text('story').notNull(),
+    status: text('status').notNull().default('new'), // 'new' | 'published' | 'archived'
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [index('story_status_idx').on(t.status)],
+);
 
 // The Philippine experiences catalog — 879 items seeded from all-bucket-list.
 // Reference data (read-only from the site's perspective; written only by the seed script),
@@ -88,6 +94,8 @@ export const catalogItems = pgTable(
     index('catalog_region_idx').on(t.region),
     index('catalog_province_idx').on(t.province),
     index('catalog_costband_idx').on(t.costBand),
+    // GIN index for tag array-contains queries (listByTag).
+    index('catalog_tags_idx').using('gin', t.tags),
   ],
 );
 

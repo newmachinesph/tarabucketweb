@@ -23,11 +23,29 @@ export async function getCurrentUser(): Promise<SessionData | null> {
   };
 }
 
-/** Server-side gate for admin pages. Redirects to login when unauthenticated. */
-export async function requireAdmin(): Promise<SessionData> {
+/** Any authenticated editor/admin. Redirects to login when unauthenticated. */
+export async function requireUser(): Promise<SessionData> {
   const user = await getCurrentUser();
-  if (!user) redirect("/admin/login");
+  if (!user?.userId) redirect("/admin/login");
   return user;
+}
+
+/**
+ * Requires an authenticated user with the `admin` role. Unauthenticated users go
+ * to login; authenticated non-admins are bounced back to the dashboard home.
+ */
+export async function requireAdmin(): Promise<SessionData> {
+  const user = await requireUser();
+  if (user.role !== "admin") redirect("/admin");
+  return user;
+}
+
+/** True when the user may edit/delete the given post (its author, or any admin). */
+export function canManagePost(
+  user: SessionData,
+  post: { authorId: string | null },
+): boolean {
+  return user.role === "admin" || post.authorId === user.userId;
 }
 
 /** Returns the user row on valid credentials, else null. */

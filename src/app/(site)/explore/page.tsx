@@ -12,7 +12,7 @@ import {
   DIFFICULTIES,
 } from "@/lib/catalog";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 const PAGE_SIZE = 24;
 

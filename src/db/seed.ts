@@ -175,8 +175,16 @@ The most Filipino bucket list is not a checklist of views. It is a list of peopl
 
 async function main() {
   const email = process.env.SEED_ADMIN_EMAIL ?? 'admin@tarabucket.ph';
-  const password = process.env.SEED_ADMIN_PASSWORD ?? 'tarabucket123';
+  const password = process.env.SEED_ADMIN_PASSWORD;
   const name = process.env.SEED_ADMIN_NAME ?? 'Tara Editor';
+
+  // Never fall back to a hardcoded default password — that would create a
+  // publicly-known admin account. Require the operator to set one explicitly.
+  if (!password || password.length < 8) {
+    throw new Error(
+      'SEED_ADMIN_PASSWORD must be set (min 8 chars) before seeding the admin user.',
+    );
+  }
 
   console.log('Seeding database...');
 
