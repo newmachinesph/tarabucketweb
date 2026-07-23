@@ -4,6 +4,7 @@ import { useState } from "react";
 
 export function NewsletterForm({ compact = false }: { compact?: boolean }) {
   const [email, setEmail] = useState("");
+  const [website, setWebsite] = useState(""); // honeypot — must stay empty
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "error">("idle");
   const [message, setMessage] = useState("");
 
@@ -14,7 +15,7 @@ export function NewsletterForm({ compact = false }: { compact?: boolean }) {
       const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, website }),
       });
       const data = await res.json();
       if (res.ok) {
@@ -33,7 +34,11 @@ export function NewsletterForm({ compact = false }: { compact?: boolean }) {
 
   if (status === "ok") {
     return (
-      <p className="rounded-2xl bg-green/10 px-5 py-4 text-center font-semibold text-green">
+      <p
+        role="status"
+        aria-live="polite"
+        className="rounded-2xl bg-green/10 px-5 py-4 text-center font-semibold text-green"
+      >
         {message}
       </p>
     );
@@ -42,8 +47,19 @@ export function NewsletterForm({ compact = false }: { compact?: boolean }) {
   return (
     <form
       onSubmit={onSubmit}
-      className={`flex w-full gap-2 ${compact ? "flex-col sm:flex-row" : "flex-col sm:flex-row"}`}
+      className={`relative flex w-full gap-2 ${compact ? "flex-col sm:flex-row" : "flex-col sm:flex-row"}`}
     >
+      {/* Honeypot: hidden from users, catches bots. */}
+      <input
+        type="text"
+        name="website"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        value={website}
+        onChange={(e) => setWebsite(e.target.value)}
+        className="absolute -left-[9999px] h-0 w-0 opacity-0"
+      />
       <input
         type="email"
         required
@@ -61,7 +77,11 @@ export function NewsletterForm({ compact = false }: { compact?: boolean }) {
         {status === "loading" ? "Joining…" : "Join the list"}
       </button>
       {status === "error" && (
-        <p className="mt-1 w-full text-sm font-medium text-red sm:absolute sm:mt-14">
+        <p
+          role="alert"
+          aria-live="assertive"
+          className="mt-1 w-full text-sm font-medium text-red sm:absolute sm:top-full sm:mt-1"
+        >
           {message}
         </p>
       )}

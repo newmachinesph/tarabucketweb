@@ -5,7 +5,7 @@ import { storySubmissions } from "@/db/schema";
 import { StoryForm } from "@/components/story-form";
 import { timeAgo } from "@/lib/format";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "Community Stories",

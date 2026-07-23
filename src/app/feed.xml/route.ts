@@ -1,7 +1,7 @@
 import { getPublishedPosts } from "@/lib/posts";
 import { SITE } from "@/lib/site";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 function esc(s: string): string {
   return s.replace(/[<>&'"]/g, (c) =>

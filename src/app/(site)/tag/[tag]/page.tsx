@@ -4,7 +4,7 @@ import { CatalogGrid } from "@/components/catalog-card";
 import { getPublishedPosts } from "@/lib/posts";
 import { listByTag } from "@/lib/catalog";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 type Params = { params: Promise<{ tag: string }> };
 

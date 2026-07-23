@@ -3,6 +3,7 @@ import { db } from "@/db";
 import { storySubmissions } from "@/db/schema";
 import { timeAgo } from "@/lib/format";
 import { setSubmissionStatus } from "@/app/admin/actions";
+import { requireAdmin } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
 
@@ -13,6 +14,7 @@ const STATUS_STYLE: Record<string, string> = {
 };
 
 export default async function SubmissionsPage() {
+  await requireAdmin();
   const items = await db
     .select()
     .from(storySubmissions)

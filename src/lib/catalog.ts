@@ -1,4 +1,5 @@
 import "server-only";
+import { cache } from "react";
 import { and, asc, desc, eq, ilike, ne, or, sql } from "drizzle-orm";
 import { db } from "@/db";
 import { catalogItems, type CatalogItem } from "@/db/schema";
@@ -19,14 +20,21 @@ export type CatalogFilters = {
   pageSize?: number;
 };
 
+const inSet = (set: readonly string[], v: string | undefined): v is string =>
+  !!v && set.includes(v);
+
 function buildWhere(filters: CatalogFilters) {
   const conditions = [];
+  // Fixed-enum filters are whitelisted so a bogus URL value is ignored rather than
+  // silently matching nothing. region/province are data-driven, so they pass through
+  // (still parameterized — no injection risk).
   if (filters.category) conditions.push(eq(catalogItems.categoryKey, filters.category));
   if (filters.region) conditions.push(eq(catalogItems.region, filters.region));
   if (filters.province) conditions.push(eq(catalogItems.province, filters.province));
-  if (filters.cost) conditions.push(eq(catalogItems.costBand, filters.cost));
-  if (filters.duration) conditions.push(eq(catalogItems.duration, filters.duration));
-  if (filters.difficulty) conditions.push(eq(catalogItems.difficulty, filters.difficulty));
+  if (inSet(COST_BANDS, filters.cost)) conditions.push(eq(catalogItems.costBand, filters.cost));
+  if (inSet(DURATIONS, filters.duration)) conditions.push(eq(catalogItems.duration, filters.duration));
+  if (inSet(DIFFICULTIES, filters.difficulty))
+    conditions.push(eq(catalogItems.difficulty, filters.difficulty));
   if (filters.q) {
     const term = `%${filters.q}%`;
     // ponytail: ILIKE over 3 text columns is instant at 879 rows; add a tsvector/GIN
@@ -67,10 +75,13 @@ export async function listCatalog(
   return { items, total: countRows[0]?.count ?? 0 };
 }
 
-export async function getCatalogItem(id: string): Promise<CatalogItem | null> {
-  const [row] = await db.select().from(catalogItems).where(eq(catalogItems.id, id)).limit(1);
-  return row ?? null;
-}
+// Memoized per-request (page + generateMetadata resolve the same id).
+export const getCatalogItem = cache(
+  async (id: string): Promise<CatalogItem | null> => {
+    const [row] = await db.select().from(catalogItems).where(eq(catalogItems.id, id)).limit(1);
+    return row ?? null;
+  },
+);
 
 export async function relatedItems(item: CatalogItem, limit = 6): Promise<CatalogItem[]> {
   const sameProvince = item.province
@@ -103,10 +114,10 @@ export async function relatedItems(item: CatalogItem, limit = 6): Promise<Catalo
   return result;
 }
 
-export async function catalogFacets(): Promise<{
+export const catalogFacets = cache(async (): Promise<{
   regions: { region: string; count: number }[];
   categories: Record<string, number>;
-}> {
+}> => {
   const [regionRows, categoryRows] = await Promise.all([
     db
       .select({ region: catalogItems.region, count: sql<number>`count(*)::int` })
@@ -126,7 +137,7 @@ export async function catalogFacets(): Promise<{
       .map((r) => ({ region: r.region, count: r.count })),
     categories: Object.fromEntries(categoryRows.map((r) => [r.category, r.count])),
   };
-}
+});
 
 /** URL-safe slug for a region name ("Ilocos Region" -> "ilocos-region"). */
 export function slugifyRegion(region: string): string {

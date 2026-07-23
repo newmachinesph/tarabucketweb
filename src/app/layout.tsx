@@ -11,10 +11,11 @@ const poppins = Poppins({
 });
 
 // Editorial display serif for magazine-style headlines (paired with Poppins for UI/body).
+// Only the weights actually used remain: 700/800 for headlines, 500 for the italic accent.
 const playfair = Playfair_Display({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["500", "700", "800"],
   style: ["normal", "italic"],
   display: "swap",
 });
@@ -37,6 +38,18 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_PH",
     siteName: SITE.name,
+    images: [
+      {
+        url: "/tarabucket-full-logo.png",
+        alt: `${SITE.name} — ${SITE.tagline}`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE.name} - ${SITE.tagline}`,
+    description: SITE.description,
+    images: ["/tarabucket-full-logo.png"],
   },
   icons: { icon: "/tarabucket-square-logo-transparent.png" },
 };

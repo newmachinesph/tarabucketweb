@@ -6,7 +6,7 @@ import { CatalogGrid } from "@/components/catalog-card";
 import { listCatalog } from "@/lib/catalog";
 import { collectionBySlug } from "@/lib/collections";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 const PAGE_SIZE = 24;
 

@@ -18,7 +18,7 @@ import {
   getCategoryCounts,
 } from "@/lib/posts";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 const HERO_IMG =
   "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1600&q=80";
@@ -102,6 +102,7 @@ export default async function HomePage() {
                   <img
                     src={HERO_IMG}
                     alt="A hidden lagoon in Palawan"
+                    fetchPriority="high"
                     className="h-full w-full object-cover"
                   />
                 </div>

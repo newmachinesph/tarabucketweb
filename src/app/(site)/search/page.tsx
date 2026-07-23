@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SearchClient } from "@/components/search-client";
 import { getSearchIndex } from "@/lib/posts";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "Search",

@@ -2,9 +2,57 @@
 
 _Reviewed: 2026-07-23 · Next.js 16.2.10 · React 19 · Drizzle ORM + Postgres · iron-session_
 
-This is an advisory audit — no application code was changed. Findings are grouped by
-severity with exact `file:line` locations and concrete fixes. A feature roadmap and a
-prioritized action list follow at the end.
+Findings are grouped by severity with exact `file:line` locations and concrete fixes. A
+feature roadmap and a prioritized action list follow at the end.
+
+> **Update — fixes applied.** The findings below have since been implemented (see
+> _Resolution status_). The report is kept as the rationale/paper-trail.
+
+## ✅ Resolution status
+
+All Critical/High/Medium and most Low findings were fixed, verified with a green
+production build plus runtime tests (security headers, rate-limit → 429, honeypot,
+correct 404s, and an end-to-end admin/editor role test via a headless browser).
+
+**Fixed**
+- **C1** seed requires `SEED_ADMIN_PASSWORD` (no hardcoded fallback).
+- **H1** real RBAC: `requireUser`/`requireAdmin`/`canManagePost`; admin-only pages and
+  destructive actions gated; verified an editor is blocked from `/admin/subscribers`.
+- **H2** post edit/delete now enforce author-or-admin ownership.
+- **H3** in-memory rate limiting + honeypot on both public POST endpoints (verified 429).
+- **H4** `force-dynamic` removed from public pages → ISR (`revalidate`), so the
+  `revalidatePath` calls in actions are now effective; admin stays dynamic.
+- **M1** `SESSION_SECRET` validated at boot in production (length + placeholder check).
+- **M3** hot readers (`getPostBySlug`, `getCatalogItem`, `catalogFacets`) memoized with
+  `React.cache`; `regionBySlug` now rides that cache.
+- **M4** DB pool default lowered to 5 (`DB_POOL_MAX`).
+- **M5** default OG image, Twitter cards added to root metadata.
+- **M7** contrast fix (`--color-faint`), informative `alt` text, LCP `fetchPriority`.
+- **M8** search index capped (500).
+- **L1–L3** mobile-menu `aria-controls`/Escape, skip-to-content link, `aria-live` form status.
+- **L4** deleted the unused three.js hero and dropped `three`/`@react-three/*` (~600 KB).
+- **L5** trimmed Playfair to the 3 used weights.
+- **L6** catalog enum filters whitelisted.
+- **L8** dropped `robots.host`; `/search` de-indexed; `/explore` + `/collections` in sitemap.
+- **L9** GIN indexes on tag arrays + `story_submissions.status` (apply via `db:push`).
+- **Config** `next` → 16.2.11 (clears the Next.js app-level CVEs), `poweredByHeader:false`,
+  security headers (`X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`,
+  `Permissions-Policy`, HSTS), `images.remotePatterns` for Unsplash.
+- Added `error.tsx` / `not-found.tsx` (branded) / `global-error.tsx` boundaries (**M2**).
+
+**Deliberately deferred (with rationale)**
+- **M2 loading skeletons** — a group-level `loading.tsx` turned every `notFound()` into a
+  soft-404 (HTTP 200) by putting a Suspense boundary above detail pages. Since pages are
+  now ISR-cached (fast), correct 404 status codes won out; the skeleton was removed.
+- **M6 full `next/image` migration** — post covers are editor-supplied arbitrary URLs and
+  `next/image` throws for non-allowlisted hosts, so a blanket conversion would crash on any
+  non-Unsplash cover. `remotePatterns` + loading hints were added instead; a cover-host
+  policy is needed before completing the migration.
+- **Transitive deps** (`js-yaml` via the admin-only MDX editor, `postcss`/`sharp` via next,
+  `esbuild` via drizzle-kit dev tooling) — no clean fix without breaking-change forces;
+  low real-world exposure. Track upstream.
+
+---
 
 ## Health snapshot
 

@@ -3,10 +3,12 @@ import { db } from "@/db";
 import { subscribers } from "@/db/schema";
 import { formatDate } from "@/lib/format";
 import { deleteSubscriber } from "@/app/admin/actions";
+import { requireAdmin } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
 
 export default async function SubscribersPage() {
+  await requireAdmin();
   const list = await db
     .select()
     .from(subscribers)

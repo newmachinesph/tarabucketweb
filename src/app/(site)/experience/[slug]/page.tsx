@@ -10,7 +10,7 @@ import { categoryLabel } from "@/lib/categories";
 // ponytail: no generateStaticParams here - 879 items would make every build pre-render
 // all of them. Dynamic rendering is fine at this scale; add generateStaticParams
 // (returning catalogItems ids) as an SEO/perf upgrade if this page needs to be static.
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 type Params = { params: Promise<{ slug: string }> };
 

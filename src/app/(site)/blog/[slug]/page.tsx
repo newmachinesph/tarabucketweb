@@ -10,7 +10,7 @@ import { formatDate } from "@/lib/format";
 import { getPostBySlug, getRelatedPosts } from "@/lib/posts";
 import { SITE } from "@/lib/site";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -65,7 +65,8 @@ export default async function PostPage({ params }: Params) {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={post.coverImage}
-            alt=""
+            alt={post.title}
+            fetchPriority="high"
             className="h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-ink/50 to-transparent" />
