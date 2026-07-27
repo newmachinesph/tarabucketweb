@@ -13,8 +13,9 @@ export const SITE = {
     { label: "About", href: "/about" },
   ],
   socials: [
-    { label: "Instagram", href: "https://instagram.com" },
-    { label: "Facebook", href: "https://facebook.com" },
-    { label: "TikTok", href: "https://tiktok.com" },
+    { label: "Instagram", href: "https://www.instagram.com/tarabucketph" },
+    { label: "Facebook", href: "https://www.facebook.com/tarabucketph" },
+    // TikTok handles are @-prefixed in the URL path.
+    { label: "TikTok", href: "https://www.tiktok.com/@tarabucketph" },
   ],
 } as const;

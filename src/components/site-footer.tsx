@@ -1,13 +1,12 @@
 import Link from "next/link";
 import { LogoMark } from "./logo";
-import { NewsletterForm } from "./newsletter-form";
 import { SITE } from "@/lib/site";
 import { CATEGORIES } from "@/lib/categories";
 
 export function SiteFooter() {
   return (
     <footer className="mt-24 bg-ink text-white">
-      <div className="container-tara grid gap-12 py-16 md:grid-cols-[1.4fr_1fr_1fr_1.6fr]">
+      <div className="container-tara grid gap-12 py-16 md:grid-cols-[1.6fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-3">
             <span className="grid h-11 w-11 place-items-center rounded-2xl bg-white/10">
@@ -65,17 +64,6 @@ export function SiteFooter() {
           </ul>
         </nav>
 
-        <div>
-          <h3 className="text-sm font-bold uppercase tracking-wider text-white/50">
-            The weekly bucket
-          </h3>
-          <p className="mt-4 text-sm text-white/60">
-            One hand-picked Philippine adventure in your inbox, every week.
-          </p>
-          <div className="mt-4">
-            <NewsletterForm compact />
-          </div>
-        </div>
       </div>
 
       <div className="border-t border-white/10">

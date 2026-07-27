@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export function NewsletterForm({ compact = false }: { compact?: boolean }) {
+export function NewsletterForm() {
   const [email, setEmail] = useState("");
   const [website, setWebsite] = useState(""); // honeypot — must stay empty
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "error">("idle");
@@ -47,7 +47,7 @@ export function NewsletterForm({ compact = false }: { compact?: boolean }) {
   return (
     <form
       onSubmit={onSubmit}
-      className={`relative flex w-full gap-2 ${compact ? "flex-col sm:flex-row" : "flex-col sm:flex-row"}`}
+      className="relative flex w-full flex-col gap-2 sm:flex-row"
     >
       {/* Honeypot: hidden from users, catches bots. */}
       <input
