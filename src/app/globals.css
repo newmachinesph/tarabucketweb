@@ -8,7 +8,8 @@
   --color-orange-dark: #e8431f;
   --color-ink: #0e1726;
   --color-muted: #5b6b7b;
-  --color-faint: #9aa7b4;
+  /* Darkened from #9aa7b4 (~2.0:1 on white) to meet WCAG AA for small text. */
+  --color-faint: #6b7885;
   --color-surface: #f2f6fa;
   --color-cream: #fff8f3;
   --color-line: rgba(14, 23, 38, 0.08);

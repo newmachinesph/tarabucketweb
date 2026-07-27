@@ -8,14 +8,21 @@ export type SessionData = {
   role?: string;
 };
 
-// Fail at boot rather than at the first request iron-session tries to seal a cookie.
-const sessionSecret = process.env.SESSION_SECRET;
-if (!sessionSecret || sessionSecret.length < 32) {
-  throw new Error("SESSION_SECRET must be set to at least 32 characters.");
+const SESSION_SECRET = process.env.SESSION_SECRET;
+
+// Fail fast in production if the cookie key is missing, too short, or left as the
+// example placeholder — a weak/guessable key means forgeable admin sessions.
+if (process.env.NODE_ENV === "production") {
+  if (!SESSION_SECRET || SESSION_SECRET.length < 32) {
+    throw new Error("SESSION_SECRET must be set to a random string of at least 32 characters.");
+  }
+  if (SESSION_SECRET.includes("change_me")) {
+    throw new Error("SESSION_SECRET is still the example placeholder — set a real random value.");
+  }
 }
 
 export const sessionOptions: SessionOptions = {
-  password: sessionSecret,
+  password: SESSION_SECRET as string,
   cookieName: "tarabucket_session",
   cookieOptions: {
     httpOnly: true,

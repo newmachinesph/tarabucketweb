@@ -5,7 +5,7 @@ import { Reveal, RevealStagger, RevealItem } from "@/components/fx";
 import { CATEGORIES } from "@/lib/categories";
 import { getPublishedPosts, getCategoryCounts } from "@/lib/posts";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "Read",

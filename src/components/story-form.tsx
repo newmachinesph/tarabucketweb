@@ -13,6 +13,7 @@ export function StoryForm() {
     title: "",
     story: "",
   });
+  const [website, setWebsite] = useState(""); // honeypot — must stay empty
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "error">("idle");
   const [message, setMessage] = useState("");
 
@@ -26,7 +27,7 @@ export function StoryForm() {
       const res = await fetch("/api/stories", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, website }),
       });
       const data = await res.json();
       if (res.ok) {
@@ -45,7 +46,7 @@ export function StoryForm() {
 
   if (status === "ok") {
     return (
-      <div className="rounded-3xl bg-green/10 p-8 text-center">
+      <div role="status" aria-live="polite" className="rounded-3xl bg-green/10 p-8 text-center">
         <span className="text-4xl">🎉</span>
         <p className="mt-3 text-lg font-bold text-green">{message}</p>
       </div>
@@ -54,6 +55,17 @@ export function StoryForm() {
 
   return (
     <form onSubmit={onSubmit} className="grid gap-4">
+      {/* Honeypot: hidden from users, catches bots. */}
+      <input
+        type="text"
+        name="website"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        value={website}
+        onChange={(e) => setWebsite(e.target.value)}
+        className="absolute -left-[9999px] h-0 w-0 opacity-0"
+      />
       <div className="grid gap-4 sm:grid-cols-2">
         <div>
           <label className="mb-1.5 block text-sm font-semibold text-ink">Your name</label>
@@ -85,7 +97,7 @@ export function StoryForm() {
         />
       </div>
       {status === "error" && (
-        <p className="text-sm font-medium text-red">{message}</p>
+        <p role="alert" aria-live="assertive" className="text-sm font-medium text-red">{message}</p>
       )}
       <button
         type="submit"

@@ -1,4 +1,5 @@
 import "server-only";
+import { cache } from "react";
 import { and, desc, eq, ne, or, sql, arrayContains } from "drizzle-orm";
 import readingTime from "reading-time";
 import slugify from "slugify";
@@ -58,11 +59,15 @@ export async function getFeaturedPosts(limit = 3): Promise<PostWithAuthor[]> {
   return featured;
 }
 
-export async function getPostBySlug(slug: string): Promise<PostWithAuthor | null> {
-  const [row] = await withAuthor().where(eq(posts.slug, slug)).limit(1);
-  if (!row || row.post.status !== "published") return null;
-  return { ...row.post, authorName: row.authorName };
-}
+// Memoized per-request: the page and its generateMetadata both call this for the
+// same slug, so React.cache collapses them into a single DB round-trip.
+export const getPostBySlug = cache(
+  async (slug: string): Promise<PostWithAuthor | null> => {
+    const [row] = await withAuthor().where(eq(posts.slug, slug)).limit(1);
+    if (!row || row.post.status !== "published") return null;
+    return { ...row.post, authorName: row.authorName };
+  },
+);
 
 export async function getRelatedPosts(post: Post, limit = 3): Promise<PostWithAuthor[]> {
   const rows = await withAuthor()
@@ -106,7 +111,10 @@ export async function getSearchIndex(): Promise<SearchDoc[]> {
     })
     .from(posts)
     .where(publishedOnly)
-    .orderBy(desc(posts.publishedAt));
+    .orderBy(desc(posts.publishedAt))
+    // Cap the client-shipped index; move to a server-side search action if the
+    // corpus ever outgrows this.
+    .limit(500);
   return rows;
 }
 

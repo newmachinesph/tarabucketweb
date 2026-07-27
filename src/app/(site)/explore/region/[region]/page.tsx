@@ -5,7 +5,7 @@ import { Reveal } from "@/components/fx";
 import { CatalogGrid } from "@/components/catalog-card";
 import { listCatalog, catalogFacets, regionBySlug, slugifyRegion } from "@/lib/catalog";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 const PAGE_SIZE = 24;
 
