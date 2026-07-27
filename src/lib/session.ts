@@ -8,8 +8,14 @@ export type SessionData = {
   role?: string;
 };
 
+// Fail at boot rather than at the first request iron-session tries to seal a cookie.
+const sessionSecret = process.env.SESSION_SECRET;
+if (!sessionSecret || sessionSecret.length < 32) {
+  throw new Error("SESSION_SECRET must be set to at least 32 characters.");
+}
+
 export const sessionOptions: SessionOptions = {
-  password: process.env.SESSION_SECRET as string,
+  password: sessionSecret,
   cookieName: "tarabucket_session",
   cookieOptions: {
     httpOnly: true,
