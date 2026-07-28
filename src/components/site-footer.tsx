@@ -56,11 +56,14 @@ export function SiteFooter() {
             Tara Bucket
           </h3>
           <ul className="mt-4 space-y-2.5 text-sm text-white/75">
+            <li><Link href="/plan" className="hover:text-orange">Plan a trip</Link></li>
             <li><Link href="/blog" className="hover:text-orange">Read stories</Link></li>
             <li><Link href="/destinations" className="hover:text-orange">Destinations</Link></li>
             <li><Link href="/bucket-list" className="hover:text-orange">Bucket lists</Link></li>
+            <li><Link href="/profile" className="hover:text-orange">Your progress</Link></li>
             <li><Link href="/stories#submit" className="hover:text-orange">Submit your story</Link></li>
             <li><Link href="/about" className="hover:text-orange">About us</Link></li>
+            <li><Link href="/partners" className="hover:text-orange">Partners &amp; disclosure</Link></li>
           </ul>
         </nav>
 

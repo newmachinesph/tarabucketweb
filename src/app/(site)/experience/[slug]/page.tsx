@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { ArrowLeft } from "lucide-react";
 import { RevealStagger, RevealItem } from "@/components/fx";
+import { BookingPanel } from "@/components/affiliate/booking-panel";
+import { ExperienceActions } from "@/components/experience/experience-actions";
 import { ButtonLink, CategoryPill, MetaPill } from "@/components/ui";
 import { getCatalogItem, relatedItems } from "@/lib/catalog";
 import { categoryLabel } from "@/lib/categories";
@@ -90,7 +92,18 @@ export default async function ExperiencePage({ params }: Params) {
               </div>
             )}
 
-            <div className="mt-8 flex flex-col gap-3 border-t border-line pt-6 sm:flex-row">
+            <div className="mt-8 border-t border-line pt-6">
+              <ExperienceActions
+                item={{
+                  id: item.id,
+                  title: item.title,
+                  region: item.region,
+                  categoryKey: item.categoryKey,
+                }}
+              />
+            </div>
+
+            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
               <ButtonLink href="/bucket-list" variant="primary">
                 Add to a bucket list
               </ButtonLink>
@@ -98,6 +111,19 @@ export default async function ExperiencePage({ params }: Params) {
                 Read stories
               </ButtonLink>
             </div>
+          </div>
+
+          <div className="mt-6">
+            <BookingPanel
+              context={{
+                title: item.title,
+                place: item.place,
+                province: item.province,
+                region: item.region,
+                duration: item.duration,
+                source: `experience/${item.id}`,
+              }}
+            />
           </div>
         </div>
       </div>

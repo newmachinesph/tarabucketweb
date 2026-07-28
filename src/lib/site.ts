@@ -4,10 +4,13 @@ export const SITE = {
   description:
     "Stories, guides, and inspiration for your Philippine bucket list - islands, food, festivals, adventure, nature, and culture. Tara na, let's go.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  // "Map" stands in for the old "Destinations" entry — it links through to every
+  // destination guide, so nothing is orphaned and the header doesn't grow to eight items.
   nav: [
-    { label: "Read", href: "/blog" },
+    { label: "Plan", href: "/plan" },
     { label: "Explore", href: "/explore" },
-    { label: "Destinations", href: "/destinations" },
+    { label: "Map", href: "/map" },
+    { label: "Read", href: "/blog" },
     { label: "Bucket Lists", href: "/bucket-list" },
     { label: "Stories", href: "/stories" },
     { label: "About", href: "/about" },

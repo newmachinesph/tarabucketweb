@@ -11,16 +11,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = SITE.url.replace(/\/$/, "");
   const posts = await getPublishedPosts();
 
+  // /profile is deliberately absent — it renders per-device progress and is noindex.
   const staticPaths: [string, number][] = [
     ["", 1],
+    ["/plan", 0.9],
     ["/blog", 0.8],
     ["/explore", 0.8],
+    ["/map", 0.8],
     ["/collections", 0.7],
     ["/destinations", 0.8],
     ["/bucket-list", 0.7],
     ["/bucket-list/new", 0.4],
     ["/stories", 0.6],
     ["/about", 0.5],
+    ["/partners", 0.4],
   ];
 
   return [
