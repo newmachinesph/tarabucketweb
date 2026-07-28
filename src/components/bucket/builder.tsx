@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Plus, X } from "lucide-react";
 import { readStore, writeStore } from "@/lib/local-store";
+import type { CatalogSuggestion } from "@/lib/catalog";
 
 const EMOJIS = ["🪣", "🏝", "🍢", "🎉", "🧗", "🌋", "🍲", "⛩️", "🏄", "☕", "🛶", "🏔"];
 const ACCENTS = ["#14A3E1", "#FF5A36", "#FF4D67", "#22C58B", "#7C4DFF", "#0EA5A5", "#F4B740"];
@@ -15,12 +16,64 @@ export function Builder() {
   const [accent, setAccent] = useState("#14A3E1");
   const [items, setItems] = useState<string[]>([]);
   const [draft, setDraft] = useState("");
+  const [suggestions, setSuggestions] = useState<CatalogSuggestion[]>([]);
+  const [active, setActive] = useState(-1);
 
-  function addItem() {
-    const t = draft.trim();
+  // Derived, not stored: clearing these in the effect body would trigger a
+  // cascading render (react-hooks/set-state-in-effect). Below the minimum
+  // query length the list simply isn't rendered.
+  const showSuggestions = draft.trim().length >= 2 && suggestions.length > 0;
+
+  useEffect(() => {
+    const q = draft.trim();
+    if (q.length < 2) return;
+    const controller = new AbortController();
+    // Debounce so a fast typist sends one request, not one per character.
+    const timer = setTimeout(async () => {
+      try {
+        const res = await fetch(`/api/catalog/suggest?q=${encodeURIComponent(q)}`, {
+          signal: controller.signal,
+        });
+        if (!res.ok) return;
+        const data: { items?: CatalogSuggestion[] } = await res.json();
+        setSuggestions(data.items ?? []);
+        setActive(-1);
+      } catch {
+        // Aborted or offline — leave the previous suggestions in place.
+      }
+    }, 180);
+    return () => {
+      clearTimeout(timer);
+      controller.abort();
+    };
+  }, [draft]);
+
+  function addItem(text: string = draft) {
+    const t = text.trim();
     if (!t) return;
     setItems((v) => [...v, t]);
     setDraft("");
+    setSuggestions([]);
+    setActive(-1);
+  }
+
+  function onKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === "Escape") {
+      setSuggestions([]);
+      setActive(-1);
+      return;
+    }
+    if (showSuggestions && (e.key === "ArrowDown" || e.key === "ArrowUp")) {
+      e.preventDefault();
+      const delta = e.key === "ArrowDown" ? 1 : -1;
+      setActive((i) => (i + delta + suggestions.length) % suggestions.length);
+      return;
+    }
+    if (e.key === "Enter") {
+      e.preventDefault();
+      // Enter picks the highlighted suggestion, else adds whatever was typed.
+      addItem(showSuggestions && active >= 0 ? suggestions[active]!.title : draft);
+    }
   }
 
   function create() {
@@ -100,26 +153,62 @@ export function Builder() {
             Add items ({items.length})
           </label>
           <div className="flex gap-2">
-            <input
-              value={draft}
-              onChange={(e) => setDraft(e.target.value)}
-              onKeyDown={(e) => {
-                if (e.key === "Enter") {
-                  e.preventDefault();
-                  addItem();
-                }
-              }}
-              placeholder="e.g. Watch the sunset at Nacpan Beach"
-              className="w-full rounded-2xl border-2 border-line bg-white px-4 py-3 text-ink outline-none focus:border-blue"
-            />
+            <div className="relative w-full">
+              <input
+                value={draft}
+                onChange={(e) => setDraft(e.target.value)}
+                onKeyDown={onKeyDown}
+                placeholder="e.g. Watch the sunset at Nacpan Beach"
+                className="w-full rounded-2xl border-2 border-line bg-white px-4 py-3 text-ink outline-none focus:border-blue"
+                role="combobox"
+                aria-expanded={showSuggestions}
+                aria-controls="tb-suggestions"
+                aria-autocomplete="list"
+                aria-activedescendant={active >= 0 ? `tb-suggestion-${active}` : undefined}
+                autoComplete="off"
+              />
+              {showSuggestions && (
+                <ul
+                  id="tb-suggestions"
+                  role="listbox"
+                  className="absolute left-0 right-0 top-full z-20 mt-2 max-h-72 overflow-y-auto rounded-2xl border-2 border-line bg-white py-1 shadow-lg"
+                >
+                  {suggestions.map((s, i) => (
+                    <li
+                      key={s.id}
+                      id={`tb-suggestion-${i}`}
+                      role="option"
+                      aria-selected={i === active}
+                      // mousedown fires before blur, so the click isn't lost to the input closing.
+                      onMouseDown={(e) => {
+                        e.preventDefault();
+                        addItem(s.title);
+                      }}
+                      onMouseEnter={() => setActive(i)}
+                      className={`flex cursor-pointer items-baseline justify-between gap-3 px-4 py-2.5 text-[15px] ${
+                        i === active ? "bg-surface text-ink" : "text-ink/80"
+                      }`}
+                    >
+                      <span className="font-medium">{s.title}</span>
+                      {s.region && (
+                        <span className="shrink-0 text-xs text-faint">{s.region}</span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
             <button
-              onClick={addItem}
+              onClick={() => addItem()}
               className="shrink-0 rounded-2xl bg-ink px-4 text-white transition-colors hover:bg-ink/85"
               aria-label="Add item"
             >
               <Plus size={20} />
             </button>
           </div>
+          <p className="mt-2 text-xs text-faint">
+            Type to search the Philippine experiences catalog, or write your own.
+          </p>
           {items.length > 0 && (
             <ul className="mt-4 space-y-2">
               {items.map((it, i) => (

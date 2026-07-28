@@ -178,6 +178,24 @@ export async function listByTag(
   return { items, total: countRows[0]?.count ?? 0 };
 }
 
+export type CatalogSuggestion = { id: string; title: string; region: string | null };
+
+/**
+ * Typeahead lookup for the bucket-list builder. Deliberately not `listCatalog`:
+ * that sorts alphabetically and runs a COUNT alongside every query, neither of
+ * which a per-keystroke endpoint wants. Titles starting with the term rank above
+ * mid-string matches so "beach" surfaces "Beach..." before "Hidden beach...".
+ */
+export async function suggestCatalog(q: string, limit = 8): Promise<CatalogSuggestion[]> {
+  const term = `%${q}%`;
+  return db
+    .select({ id: catalogItems.id, title: catalogItems.title, region: catalogItems.region })
+    .from(catalogItems)
+    .where(or(ilike(catalogItems.title, term), ilike(catalogItems.place, term)))
+    .orderBy(sql`case when ${catalogItems.title} ilike ${q + "%"} then 0 else 1 end`, asc(catalogItems.title))
+    .limit(limit);
+}
+
 export async function randomItems(n: number): Promise<CatalogItem[]> {
   // ponytail: ORDER BY random() full-scans at 879 rows, which is instant. Swap for
   // TABLESAMPLE or a precomputed random key column if the catalog grows to 100k+.

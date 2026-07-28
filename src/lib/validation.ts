@@ -25,6 +25,11 @@ export const newsletterSchema = z.object({
   email: z.string().trim().toLowerCase().email("Enter a valid email"),
 });
 
+// Typeahead query. Min 2 so a single keystroke doesn't scan for "a".
+export const suggestSchema = z.object({
+  q: z.string().trim().min(2).max(80),
+});
+
 export const storySchema = z.object({
   name: z.string().trim().min(2, "Tell us your name").max(80),
   email: z.string().trim().toLowerCase().email("Enter a valid email"),
