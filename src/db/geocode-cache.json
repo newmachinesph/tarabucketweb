@@ -1,0 +1,2635 @@
+{
+ "Nationwide, Philippines": {
+  "lat": 14.5571089,
+  "lng": 120.9860287
+ },
+ "Lola's kitchen, Nationwide, Philippines": null,
+ "Lola's kitchen, Philippines": {
+  "lat": 14.6142252,
+  "lng": 120.9830211
+ },
+ "Parish church and family home, Nationwide, Philippines": null,
+ "Parish church and family home, Philippines": null,
+ "Family home, Nationwide, Philippines": null,
+ "Family home, Philippines": {
+  "lat": 14.5748867,
+  "lng": 121.001102
+ },
+ "Neighborhood street or backyard, Nationwide, Philippines": null,
+ "Neighborhood street or backyard, Philippines": null,
+ "Beach destination, Nationwide, Philippines": null,
+ "Beach destination, Philippines": null,
+ "Parish church, Nationwide, Philippines": null,
+ "Parish church, Philippines": {
+  "lat": 14.5075974,
+  "lng": 121.0298901
+ },
+ "Ancestral hometown, Nationwide, Philippines": null,
+ "Ancestral hometown, Philippines": null,
+ "Family parish church, Nationwide, Philippines": null,
+ "Family parish church, Philippines": {
+  "lat": 14.6276291,
+  "lng": 121.0214621
+ },
+ "Workshops in Manila and online, Nationwide, Philippines": null,
+ "Workshops in Manila and online, Philippines": null,
+ "Family hometown or resort, Nationwide, Philippines": null,
+ "Family hometown or resort, Philippines": null,
+ "Family hometown, Nationwide, Philippines": null,
+ "Family hometown, Philippines": null,
+ "Cargo forwarder branches abroad, Nationwide, Philippines": null,
+ "Cargo forwarder branches abroad, Philippines": null,
+ "Sunset spot (Manila Bay, White Beach, Nacpan), Nationwide, Philippines": null,
+ "Sunset spot (Manila Bay, White Beach, Nacpan), Philippines": null,
+ "Nationwide, Nationwide, Philippines": null,
+ "Kaparkan Falls, Tineg, Abra, Philippines": {
+  "lat": 17.7823253,
+  "lng": 120.7813175
+ },
+ "Cabadbaran City, Agusan del Norte, Philippines": {
+  "lat": 9.1232854,
+  "lng": 125.5322317
+ },
+ "Balangay Shrine Museum, Butuan City, Agusan del Norte, Philippines": null,
+ "Balangay Shrine Museum, Butuan City, Philippines": {
+  "lat": 8.9540739,
+  "lng": 125.4962876
+ },
+ "Agusan Marsh Wildlife Sanctuary, Loreto, Agusan del Sur, Philippines": null,
+ "Agusan Marsh Wildlife Sanctuary, Loreto, Philippines": null,
+ "Agusan del Sur, Philippines": {
+  "lat": 8.36,
+  "lng": 125.71
+ },
+ "Bayugan City, Agusan del Sur, Philippines": {
+  "lat": 8.714521,
+  "lng": 125.7482023
+ },
+ "Kalibo, Aklan, Philippines": {
+  "lat": 11.7088966,
+  "lng": 122.3640225
+ },
+ "Boracay, Malay, Aklan, Philippines": {
+  "lat": 11.9693692,
+  "lng": 121.9227339
+ },
+ "White Beach, Boracay, Malay, Aklan, Philippines": {
+  "lat": 11.9678509,
+  "lng": 121.9199397
+ },
+ "Bulabog Beach, Boracay, Malay, Aklan, Philippines": null,
+ "Bulabog Beach, Boracay, Malay, Philippines": null,
+ "Aklan, Philippines": {
+  "lat": 11.6297894,
+  "lng": 122.2481177
+ },
+ "Buruanga, near Boracay, Aklan, Philippines": null,
+ "Buruanga, near Boracay, Philippines": null,
+ "Bulabog Beach, Boracay, Aklan, Philippines": null,
+ "Bulabog Beach, Boracay, Philippines": null,
+ "White Beach, Boracay, Aklan, Philippines": {
+  "lat": 11.9678509,
+  "lng": 121.9199397
+ },
+ "Boracay, Aklan, Philippines": {
+  "lat": 11.9693692,
+  "lng": 121.9227339
+ },
+ "Legazpi, Albay, Philippines": {
+  "lat": 13.1388505,
+  "lng": 123.7345746
+ },
+ "Legazpi City, Albay, Philippines": {
+  "lat": 13.1388505,
+  "lng": 123.7345746
+ },
+ "Ligao City, Albay, Philippines": {
+  "lat": 13.2402789,
+  "lng": 123.5365227
+ },
+ "Tabaco City, Albay, Philippines": {
+  "lat": 13.3593077,
+  "lng": 123.7302007
+ },
+ "Daraga, Albay, Philippines": {
+  "lat": 13.1479697,
+  "lng": 123.7120775
+ },
+ "All provinces, All, Philippines": null,
+ "All provinces, Philippines": null,
+ "All, Philippines": {
+  "lat": 14.6137459,
+  "lng": 121.0229402
+ },
+ "All regions, All, Philippines": null,
+ "All regions, Philippines": null,
+ "Archipelago-wide, All, Philippines": null,
+ "Archipelago-wide, Philippines": null,
+ "Tibiao River, Antique, Philippines": {
+  "lat": 11.3445163,
+  "lng": 122.0856513
+ },
+ "Tibiao, Antique, Philippines": {
+  "lat": 11.2886284,
+  "lng": 122.0342615
+ },
+ "Sibalom Natural Park, Antique, Philippines": {
+  "lat": 10.74955,
+  "lng": 122.1345829
+ },
+ "Nogas Island, Anini-y, Antique, Philippines": {
+  "lat": 10.4179062,
+  "lng": 121.9213165
+ },
+ "Barbaza, Antique, Philippines": {
+  "lat": 11.1953194,
+  "lng": 122.037732
+ },
+ "San Jose de Buenavista and Malandog, Hamtic, Antique, Philippines": null,
+ "San Jose de Buenavista and Malandog, Hamtic, Philippines": null,
+ "Antique, Philippines": {
+  "lat": 11.1705066,
+  "lng": 122.083333
+ },
+ "Malumpati Cold Spring, Pandan, Antique, Philippines": {
+  "lat": 11.7671672,
+  "lng": 122.0766138
+ },
+ "Seco Island, Tibiao, Antique, Philippines": {
+  "lat": 11.3174774,
+  "lng": 121.6713286
+ },
+ "Mt. Madja-as, Culasi, Antique, Philippines": {
+  "lat": 11.3891641,
+  "lng": 122.1619494
+ },
+ "Any flag ceremony, Any, Philippines": null,
+ "Any flag ceremony, Philippines": null,
+ "Any, Philippines": {
+  "lat": 14.5787401,
+  "lng": 121.0511087
+ },
+ "Anywhere, Any, Philippines": null,
+ "Anywhere, Philippines": null,
+ "Licensed cockpit arenas, Any province, Philippines": null,
+ "Licensed cockpit arenas, Philippines": null,
+ "Any province, Philippines": null,
+ "Rural villages, Any province, Philippines": null,
+ "Rural villages, Philippines": null,
+ "Local parishes, Any province, Philippines": null,
+ "Local parishes, Philippines": null,
+ "Family homes, Any province, Philippines": null,
+ "Family homes, Philippines": {
+  "lat": 14.4017407,
+  "lng": 120.9426624
+ },
+ "Barangay covered courts, Any province, Philippines": null,
+ "Barangay covered courts, Philippines": null,
+ "Neighborhood videoke bars, Any province, Philippines": null,
+ "Neighborhood videoke bars, Philippines": null,
+ "Provincial countryside, Any province, Philippines": null,
+ "Provincial countryside, Philippines": null,
+ "Provincial towns, Any province, Philippines": null,
+ "Provincial towns, Philippines": null,
+ "Local barangays, Any province, Philippines": null,
+ "Local barangays, Philippines": null,
+ "Dupag Rock Formation, Marag Valley, Luna, Apayao, Philippines": null,
+ "Dupag Rock Formation, Marag Valley, Luna, Philippines": null,
+ "Apayao, Philippines": {
+  "lat": 18.12,
+  "lng": 121.19
+ },
+ "Lussok Crystal Cave, Luna, Apayao, Philippines": null,
+ "Lussok Crystal Cave, Luna, Philippines": null,
+ "San Luis (near Baler), Aurora, Philippines": null,
+ "San Luis (near Baler), Philippines": null,
+ "Aurora, Philippines": {
+  "lat": 16.0474764,
+  "lng": 121.6700916
+ },
+ "Baler, Aurora, Philippines": {
+  "lat": 15.759086,
+  "lng": 121.5627247
+ },
+ "Dingalan, Aurora, Philippines": {
+  "lat": 15.3894081,
+  "lng": 121.3927168
+ },
+ "Balete Ecopark, Maria Aurora (near Baler), Aurora, Philippines": null,
+ "Balete Ecopark, Maria Aurora (near Baler), Philippines": null,
+ "Malamawi Island, Isabela City, Basilan, Philippines": {
+  "lat": 6.7321295,
+  "lng": 121.9612988
+ },
+ "Lamitan City, Basilan, Philippines": {
+  "lat": 6.6575615,
+  "lng": 122.1449694
+ },
+ "Balanga City, Bataan, Philippines": {
+  "lat": 14.6795669,
+  "lng": 120.5409693
+ },
+ "Bagac, Bataan, Philippines": {
+  "lat": 14.596782,
+  "lng": 120.3923303
+ },
+ "Pawikan Conservation Center, Morong, Bataan, Philippines": {
+  "lat": 14.6525629,
+  "lng": 120.2951634
+ },
+ "Orani, Bataan, Philippines": {
+  "lat": 14.8012181,
+  "lng": 120.5362038
+ },
+ "Mariveles, Bataan to San Fernando, Pampanga, Bataan, Philippines": null,
+ "Mariveles, Bataan to San Fernando, Pampanga, Philippines": null,
+ "Bataan, Philippines": {
+  "lat": 14.6436031,
+  "lng": 120.4657622
+ },
+ "Tarak Ridge, Mt. Mariveles, Bataan, Philippines": null,
+ "Tarak Ridge, Mt. Mariveles, Philippines": null,
+ "Pilar, Bataan, Philippines": {
+  "lat": 14.6669245,
+  "lng": 120.5528157
+ },
+ "Diura, Mahatao, Batan Island, Batanes, Philippines": null,
+ "Diura, Mahatao, Batan Island, Philippines": null,
+ "Batanes, Philippines": {
+  "lat": 20.6442465,
+  "lng": 121.8939456
+ },
+ "Sabtang (Savidug and Chavayan), Batanes, Philippines": null,
+ "Sabtang (Savidug and Chavayan), Philippines": null,
+ "Chavayan, Sabtang Island, Batanes, Philippines": null,
+ "Chavayan, Sabtang Island, Philippines": null,
+ "Sabtang Island, Batanes, Philippines": {
+  "lat": 20.3082637,
+  "lng": 121.8647857
+ },
+ "Mahatao, Batan Island, Batanes, Philippines": null,
+ "Mahatao, Batan Island, Philippines": null,
+ "Naidi Hills / Basco Lighthouse, Batanes, Philippines": null,
+ "Naidi Hills / Basco Lighthouse, Philippines": null,
+ "Basco, Batanes, Philippines": {
+  "lat": 20.4490442,
+  "lng": 121.9683455
+ },
+ "Valugan Boulder Beach, Basco, Batan Island, Batanes, Philippines": null,
+ "Valugan Boulder Beach, Basco, Batan Island, Philippines": null,
+ "Basco to Bongao, Batanes, Tawi-Tawi, Philippines": null,
+ "Basco to Bongao, Philippines": null,
+ "Batanes, Tawi-Tawi, Philippines": null,
+ "Santo Tomas City, Batangas, Philippines": {
+  "lat": 14.105066,
+  "lng": 121.1438406
+ },
+ "Tanauan City, Batangas, Philippines": {
+  "lat": 14.0893742,
+  "lng": 121.1326629
+ },
+ "Anilao, Mabini, Batangas, Philippines": {
+  "lat": 13.7607684,
+  "lng": 120.9279593
+ },
+ "Lipa City, Batangas, Philippines": {
+  "lat": 13.9550685,
+  "lng": 121.1655923
+ },
+ "Taal, Batangas, Philippines": {
+  "lat": 13.8800681,
+  "lng": 120.923877
+ },
+ "Mt. Batulao, Nasugbu, Batangas, Philippines": {
+  "lat": 14.0587833,
+  "lng": 120.8400017
+ },
+ "Burot Beach, Calatagan, Batangas, Philippines": {
+  "lat": 13.8137416,
+  "lng": 120.6220641
+ },
+ "Fortune Island, Nasugbu, Batangas, Philippines": {
+  "lat": 14.0567026,
+  "lng": 120.491726
+ },
+ "Batangas City, Batangas, Philippines": {
+  "lat": 13.7552594,
+  "lng": 121.0590753
+ },
+ "Balayan, Batangas, Philippines": {
+  "lat": 13.9381793,
+  "lng": 120.7294945
+ },
+ "Lipa, Batangas, Philippines": {
+  "lat": 13.941434,
+  "lng": 121.1642826
+ },
+ "Mabini, Anilao, Batangas, Philippines": {
+  "lat": 13.7525141,
+  "lng": 120.9406875
+ },
+ "Calatagan, Batangas, Batangas, Philippines": {
+  "lat": 13.8329908,
+  "lng": 120.6326233
+ },
+ "Mt. Maculot, Cuenca, Batangas, Philippines": {
+  "lat": 13.9208682,
+  "lng": 121.0516961
+ },
+ "Taal Volcano, Talisay, Batangas, Philippines": {
+  "lat": 14.0349424,
+  "lng": 121.0034937
+ },
+ "Lipa lomi houses, Batangas, Philippines": null,
+ "Lipa lomi houses, Philippines": null,
+ "Batangas, Philippines": {
+  "lat": 13.9146826,
+  "lng": 121.0867566
+ },
+ "Talisay, Batangas, Batangas, Philippines": {
+  "lat": 14.0936564,
+  "lng": 121.0205863
+ },
+ "Verde Island, Batangas, Batangas, Philippines": {
+  "lat": 13.6470161,
+  "lng": 120.7720912
+ },
+ "Calaca City, Batangas, Philippines": {
+  "lat": 13.9338465,
+  "lng": 120.8140254
+ },
+ "Wright Park, Baguio, Benguet, Philippines": null,
+ "Wright Park, Baguio, Philippines": {
+  "lat": 16.4151386,
+  "lng": 120.6185897
+ },
+ "Mt. Ulap Eco-Trail, Itogon, Benguet, Philippines": null,
+ "Mt. Ulap Eco-Trail, Itogon, Philippines": null,
+ "Benguet, Philippines": {
+  "lat": 16.52,
+  "lng": 120.69
+ },
+ "Baguio, Benguet, Philippines": {
+  "lat": 16.4329569,
+  "lng": 120.6515014
+ },
+ "Timbac Caves, Kabayan, Benguet, Philippines": null,
+ "Timbac Caves, Kabayan, Philippines": null,
+ "Mt. Ulap, Itogon, Benguet, Philippines": null,
+ "Mt. Ulap, Itogon, Philippines": null,
+ "Baguio City, Benguet, Philippines": {
+  "lat": 16.3768758,
+  "lng": 120.7176622
+ },
+ "Tuba, Benguet, Benguet, Philippines": {
+  "lat": 16.3924478,
+  "lng": 120.5601478
+ },
+ "La Trinidad Strawberry Farm, Benguet, Philippines": {
+  "lat": 16.4531219,
+  "lng": 120.5819169
+ },
+ "Tuel, Tublay, Benguet, Philippines": {
+  "lat": 16.5139078,
+  "lng": 120.5810677
+ },
+ "Dalupirip, Itogon, Benguet, Philippines": {
+  "lat": 16.3264375,
+  "lng": 120.7239565
+ },
+ "Kabayan, Benguet, Philippines": {
+  "lat": 16.6234152,
+  "lng": 120.8379622
+ },
+ "Naval, Biliran, Philippines": {
+  "lat": 11.56179,
+  "lng": 124.3965267
+ },
+ "Almeria, Biliran, Philippines": {
+  "lat": 11.620278,
+  "lng": 124.381667
+ },
+ "Maripipi, Biliran, Philippines": {
+  "lat": 11.7765231,
+  "lng": 124.3485946
+ },
+ "Abatan River, Cortes, Bohol, Philippines": null,
+ "Abatan River, Cortes, Philippines": null,
+ "Bohol, Philippines": {
+  "lat": 9.833333,
+  "lng": 124.1615579
+ },
+ "Baclayon, Bohol, Bohol, Philippines": {
+  "lat": 9.6221823,
+  "lng": 123.9131571
+ },
+ "Pamilacan Island, Baclayon, Bohol, Philippines": null,
+ "Pamilacan Island, Baclayon, Philippines": null,
+ "Rajah Sikatuna Protected Landscape, Bilar, Bohol, Philippines": {
+  "lat": 9.7054597,
+  "lng": 124.1243144
+ },
+ "Loboc, Bohol, Bohol, Philippines": {
+  "lat": 9.6370754,
+  "lng": 124.0308694
+ },
+ "Carmen, Bohol, Philippines": {
+  "lat": 9.824334,
+  "lng": 124.1983784
+ },
+ "Balicasag Island, Panglao, Bohol, Philippines": {
+  "lat": 9.517292,
+  "lng": 123.6843841
+ },
+ "Loboc River, Bohol, Philippines": {
+  "lat": 9.7064267,
+  "lng": 124.0400019
+ },
+ "Loboc, Bohol, Philippines": {
+  "lat": 9.6370754,
+  "lng": 124.0308694
+ },
+ "Lamanoc Point, Anda, Bohol, Philippines": null,
+ "Lamanoc Point, Anda, Philippines": null,
+ "Anda, Bohol, Philippines": {
+  "lat": 9.7440884,
+  "lng": 124.5754446
+ },
+ "Tagbilaran City, Bohol, Philippines": {
+  "lat": 9.6272084,
+  "lng": 123.8788215
+ },
+ "Danao, Bohol, Philippines": {
+  "lat": 9.9469702,
+  "lng": 124.2206172
+ },
+ "Panglao, Bohol, Bohol, Philippines": {
+  "lat": 9.5791851,
+  "lng": 123.7452642
+ },
+ "Dauis, Panglao Island, Bohol, Philippines": null,
+ "Dauis, Panglao Island, Philippines": null,
+ "Corella, Bohol, Philippines": {
+  "lat": 9.6876964,
+  "lng": 123.921306
+ },
+ "Maramag, Bukidnon, Philippines": {
+  "lat": 7.7610686,
+  "lng": 125.005158
+ },
+ "Mt. Kitanglad Range Natural Park, Bukidnon, Philippines": {
+  "lat": 8.1370402,
+  "lng": 124.8457531
+ },
+ "Lake Apo, Valencia City, Bukidnon, Philippines": {
+  "lat": 7.8802421,
+  "lng": 125.0060964
+ },
+ "Manolo Fortich, Dahilayan, Bukidnon, Philippines": null,
+ "Manolo Fortich, Dahilayan, Philippines": null,
+ "Bukidnon, Philippines": {
+  "lat": 8.022778,
+  "lng": 124.998611
+ },
+ "Kitanglad Range, Bukidnon, Philippines": {
+  "lat": 8.1370402,
+  "lng": 124.8457531
+ },
+ "Pangantucan, Bukidnon, Philippines": {
+  "lat": 7.8297721,
+  "lng": 124.8288119
+ },
+ "Mt. Dulang-dulang, Lantapan, Bukidnon, Philippines": null,
+ "Mt. Dulang-dulang, Lantapan, Philippines": null,
+ "Malaybalay, Bukidnon, Philippines": {
+  "lat": 8.1550421,
+  "lng": 125.1305726
+ },
+ "Malaybalay City, Bukidnon, Philippines": {
+  "lat": 8.1550421,
+  "lng": 125.1305726
+ },
+ "Hagonoy, Manila Bay coast, Bulacan, Philippines": null,
+ "Hagonoy, Manila Bay coast, Philippines": null,
+ "Bulacan, Philippines": {
+  "lat": 15,
+  "lng": 121.083333
+ },
+ "Baliwag City, Bulacan, Philippines": {
+  "lat": 14.9542259,
+  "lng": 120.9009172
+ },
+ "Meycauayan City, Bulacan, Philippines": {
+  "lat": 14.7345008,
+  "lng": 120.9571635
+ },
+ "San Miguel pastillas makers, Bulacan, Philippines": null,
+ "San Miguel pastillas makers, Philippines": null,
+ "San Miguel, Bulacan, Bulacan, Philippines": {
+  "lat": 15.1405274,
+  "lng": 120.9770621
+ },
+ "San Isidro Labrador Parish, Pulilan, Bulacan, Philippines": {
+  "lat": 14.9026044,
+  "lng": 120.8488939
+ },
+ "Malolos, Bulacan, Philippines": {
+  "lat": 14.843759,
+  "lng": 120.8113694
+ },
+ "Obando, Bulacan, Philippines": {
+  "lat": 14.70989,
+  "lng": 120.9365149
+ },
+ "Bocaue, Bulacan, Philippines": {
+  "lat": 14.7954178,
+  "lng": 120.9253578
+ },
+ "Angat, Bulacan, Bulacan, Philippines": {
+  "lat": 14.927794,
+  "lng": 121.02914
+ },
+ "San Jose del Monte City, Bulacan, Philippines": {
+  "lat": 14.8101978,
+  "lng": 121.0474088
+ },
+ "Tuguegarao panciterias, Cagayan, Philippines": null,
+ "Tuguegarao panciterias, Philippines": null,
+ "Cagayan, Philippines": {
+  "lat": 18,
+  "lng": 121.833333
+ },
+ "Babuyan Islands (Calayan/Camiguin Norte), Cagayan, Philippines": null,
+ "Babuyan Islands (Calayan/Camiguin Norte), Philippines": null,
+ "Palaui Island, Santa Ana, Cagayan, Philippines": {
+  "lat": 18.5412545,
+  "lng": 122.1370988
+ },
+ "Peñablanca, Cagayan, Philippines": {
+  "lat": 17.6248562,
+  "lng": 121.7844749
+ },
+ "Vinzons (Mahabang Buhangin, Calaguas), Camarines Norte, Philippines": null,
+ "Vinzons (Mahabang Buhangin, Calaguas), Philippines": null,
+ "Camarines Norte, Philippines": {
+  "lat": 14.166667,
+  "lng": 122.75
+ },
+ "Pili, Camarines Sur, Philippines": {
+  "lat": 13.5562068,
+  "lng": 123.2740809
+ },
+ "Naga City, Camarines Sur, Philippines": {
+  "lat": 13.6240122,
+  "lng": 123.1850318
+ },
+ "Caramoan, Camarines Sur, Philippines": {
+  "lat": 13.7681398,
+  "lng": 123.8624978
+ },
+ "Iriga City, Camarines Sur, Philippines": {
+  "lat": 13.4222626,
+  "lng": 123.4129406
+ },
+ "Mambajao, Camiguin, Camiguin, Philippines": {
+  "lat": 9.2456944,
+  "lng": 124.7269435
+ },
+ "Mt. Hibok-Hibok, Mambajao, Camiguin, Philippines": {
+  "lat": 9.1962125,
+  "lng": 124.6890448
+ },
+ "Bura Soda Water Pool, Catarman, Camiguin, Philippines": {
+  "lat": 9.1711364,
+  "lng": 124.6569926
+ },
+ "Camiguin island circumferential road, Camiguin, Philippines": null,
+ "Camiguin island circumferential road, Philippines": null,
+ "Camiguin, Philippines": {
+  "lat": 9.1739753,
+  "lng": 124.7256992
+ },
+ "Catarman, Camiguin Island, Camiguin, Philippines": null,
+ "Catarman, Camiguin Island, Philippines": null,
+ "Mantigue Island, Mahinog, Camiguin, Philippines": {
+  "lat": 9.172207,
+  "lng": 124.8242745
+ },
+ "Mambajao, Camiguin, Philippines": {
+  "lat": 9.2456944,
+  "lng": 124.7269435
+ },
+ "Katibawasan Falls, Mambajao, Camiguin, Philippines": {
+  "lat": 9.2135773,
+  "lng": 124.7179298
+ },
+ "Roxas City, Capiz, Philippines": {
+  "lat": 11.5895171,
+  "lng": 122.7500577
+ },
+ "Puraran Beach, Baras, Catanduanes, Philippines": {
+  "lat": 13.6896898,
+  "lng": 124.3950126
+ },
+ "Binurong Point, Baras, Catanduanes, Philippines": {
+  "lat": 13.667032,
+  "lng": 124.4149635
+ },
+ "Tagaytay, Cavite, Philippines": {
+  "lat": 14.0992736,
+  "lng": 120.9391858
+ },
+ "Dasmariñas City, Cavite, Philippines": {
+  "lat": 14.3270819,
+  "lng": 120.9370871
+ },
+ "Trece Martires City, Cavite, Philippines": {
+  "lat": 14.2813209,
+  "lng": 120.8698956
+ },
+ "Carmona City, Cavite, Philippines": {
+  "lat": 14.2751378,
+  "lng": 121.0105873
+ },
+ "Kawit, Cavite, Philippines": {
+  "lat": 14.4442694,
+  "lng": 120.9035361
+ },
+ "Tagaytay ridge bulalohan, Cavite, Philippines": null,
+ "Tagaytay ridge bulalohan, Philippines": null,
+ "Cavite, Philippines": {
+  "lat": 14.2854199,
+  "lng": 120.8543403
+ },
+ "General Trias City, Cavite, Philippines": {
+  "lat": 14.4822041,
+  "lng": 120.9124454
+ },
+ "Pico de Loro, Maragondon, Cavite, Philippines": {
+  "lat": 14.2159021,
+  "lng": 120.662147
+ },
+ "Corregidor Island, Cavite, Philippines": {
+  "lat": 14.3831554,
+  "lng": 120.5739453
+ },
+ "Imus, Cavite, Cavite, Philippines": {
+  "lat": 14.4290216,
+  "lng": 120.9365838
+ },
+ "Alfonso, near Tagaytay, Cavite, Philippines": null,
+ "Alfonso, near Tagaytay, Philippines": null,
+ "Bacoor City, Cavite, Philippines": {
+  "lat": 14.4311318,
+  "lng": 120.9680621
+ },
+ "Cavite City, Cavite, Philippines": {
+  "lat": 14.4820919,
+  "lng": 120.908919
+ },
+ "Barangay Suba, Samboan, Cebu, Philippines": {
+  "lat": 9.529412,
+  "lng": 123.3069755
+ },
+ "Taboan Market, Cebu City, Cebu, Philippines": {
+  "lat": 10.2946819,
+  "lng": 123.8918788
+ },
+ "Carbon Market painitan, Cebu City, Cebu, Philippines": null,
+ "Carbon Market painitan, Cebu City, Philippines": null,
+ "Cebu, Philippines": {
+  "lat": 10.47,
+  "lng": 123.83
+ },
+ "Casa Gorordo Museum, Cebu City, Cebu, Philippines": {
+  "lat": 10.299915,
+  "lng": 123.904823
+ },
+ "Toledo City, Cebu, Philippines": {
+  "lat": 10.3749385,
+  "lng": 123.6344069
+ },
+ "Talisay City, Cebu, Philippines": {
+  "lat": 10.2430205,
+  "lng": 123.8488245
+ },
+ "Naga City, Cebu, Philippines": {
+  "lat": 10.2084724,
+  "lng": 123.7590963
+ },
+ "Mandaue City, Cebu, Philippines": {
+  "lat": 10.3350999,
+  "lng": 123.94397
+ },
+ "Danao City, Cebu, Philippines": {
+  "lat": 10.5180007,
+  "lng": 124.0283744
+ },
+ "Bogo City, Cebu, Philippines": {
+  "lat": 11.0512735,
+  "lng": 124.0035064
+ },
+ "Oslob, Cebu, Philippines": {
+  "lat": 9.5204466,
+  "lng": 123.4335205
+ },
+ "Badian, Cebu, Philippines": {
+  "lat": 9.870125,
+  "lng": 123.3989791
+ },
+ "Dalaguete, Cebu, Philippines": {
+  "lat": 9.7619073,
+  "lng": 123.5334094
+ },
+ "Cebu City, Cebu, Philippines": {
+  "lat": 10.3285605,
+  "lng": 123.9008849
+ },
+ "Sumilon Island, Oslob, Cebu, Philippines": {
+  "lat": 9.4317193,
+  "lng": 123.3895554
+ },
+ "Santa Fe, Bantayan Island, Cebu, Philippines": null,
+ "Santa Fe, Bantayan Island, Philippines": null,
+ "Poro, Camotes Islands, Cebu, Philippines": null,
+ "Poro, Camotes Islands, Philippines": null,
+ "Tudela, Camotes Islands, Cebu, Philippines": null,
+ "Tudela, Camotes Islands, Philippines": null,
+ "Carcar City, Cebu, Philippines": {
+  "lat": 10.1055552,
+  "lng": 123.6406685
+ },
+ "Cebu City / Carcar, Cebu, Philippines": {
+  "lat": 10.098786,
+  "lng": 123.6438496
+ },
+ "Malapascua Island, Daanbantayan, Cebu, Philippines": null,
+ "Malapascua Island, Daanbantayan, Philippines": null,
+ "Santander to Daanbantayan, Cebu, Philippines": null,
+ "Santander to Daanbantayan, Philippines": null,
+ "Dalaguete to Badian, Cebu, Philippines": null,
+ "Dalaguete to Badian, Philippines": null,
+ "Argao, Cebu, Philippines": {
+  "lat": 9.8813917,
+  "lng": 123.6085598
+ },
+ "Cordova, Cebu, Philippines": {
+  "lat": 10.2521909,
+  "lng": 123.9494748
+ },
+ "Pasil, Cebu City, Cebu, Philippines": {
+  "lat": 10.2901866,
+  "lng": 123.8946731
+ },
+ "Panagsama Beach, Moalboal, Cebu, Philippines": {
+  "lat": 9.9492466,
+  "lng": 123.3658045
+ },
+ "Badian and Alegria, Cebu, Philippines": null,
+ "Badian and Alegria, Philippines": null,
+ "Abuno, Lapu-Lapu City, Cebu, Philippines": null,
+ "Abuno, Lapu-Lapu City, Philippines": null,
+ "Beverly Hills, Cebu City, Cebu, Philippines": {
+  "lat": 10.3351911,
+  "lng": 123.889375
+ },
+ "Olango Island Wildlife Sanctuary, Lapu-Lapu City, Cebu, Philippines": null,
+ "Olango Island Wildlife Sanctuary, Lapu-Lapu City, Philippines": null,
+ "Cebu highlands, Cebu, Philippines": null,
+ "Cebu highlands, Philippines": null,
+ "Sibonga, Cebu, Philippines": {
+  "lat": 10.0173783,
+  "lng": 123.6204663
+ },
+ "Carbon Market, Cebu City, Cebu, Philippines": {
+  "lat": 10.2920377,
+  "lng": 123.8978143
+ },
+ "Fort San Pedro, Cebu City, Cebu, Philippines": {
+  "lat": 10.2927283,
+  "lng": 123.9058911
+ },
+ "Museo Sugbo, Cebu City, Cebu, Philippines": {
+  "lat": 10.3038264,
+  "lng": 123.906704
+ },
+ "1730 Jesuit House (Museo Parian), Cebu City, Cebu, Philippines": null,
+ "1730 Jesuit House (Museo Parian), Cebu City, Philippines": null,
+ "Yap-Sandiego Ancestral House, Cebu City, Cebu, Philippines": {
+  "lat": 10.2992579,
+  "lng": 123.9039722
+ },
+ "Lapu-Lapu City, Mactan, Cebu, Philippines": null,
+ "Lapu-Lapu City, Mactan, Philippines": {
+  "lat": 10.3014356,
+  "lng": 124.0005422
+ },
+ "Barangay Calabawan, Ginatilan, Cebu, Philippines": {
+  "lat": 9.5354493,
+  "lng": 123.3651008
+ },
+ "STK grills near Mactan Shrine, Lapu-Lapu City, Cebu, Philippines": null,
+ "STK grills near Mactan Shrine, Lapu-Lapu City, Philippines": null,
+ "Barangay Bonbon, Samboan, Cebu, Philippines": {
+  "lat": 9.5116737,
+  "lng": 123.3030394
+ },
+ "Alegria, Cebu, Philippines": {
+  "lat": 9.7293873,
+  "lng": 123.3396747
+ },
+ "Bojo River, Aloguinsan, Cebu, Philippines": {
+  "lat": 10.2061567,
+  "lng": 123.5451106
+ },
+ "Lake Danao, Pacijan Island, Camotes, Cebu, Philippines": null,
+ "Lake Danao, Pacijan Island, Camotes, Philippines": null,
+ "Pescador Island, Moalboal, Cebu, Philippines": null,
+ "Pescador Island, Moalboal, Philippines": null,
+ "Carnaza Island, Daanbantayan, Cebu, Philippines": {
+  "lat": 11.5102453,
+  "lng": 124.0980132
+ },
+ "Tuslob-buwa stalls, Cebu City, Cebu, Philippines": null,
+ "Tuslob-buwa stalls, Cebu City, Philippines": null,
+ "Cebu, Kalibo, Iloilo, Baguio, Bacolod, Cebu, Aklan, Iloilo, Benguet, Negros Occidental, Philippines": null,
+ "Cebu, Kalibo, Iloilo, Baguio, Bacolod, Philippines": null,
+ "Cebu, Aklan, Iloilo, Benguet, Negros Occidental, Philippines": null,
+ "Cebu City, La Loma Quezon City, Balayan, Cebu, Metro Manila, Batangas, Philippines": null,
+ "Cebu City, La Loma Quezon City, Balayan, Philippines": null,
+ "Cebu, Metro Manila, Batangas, Philippines": null,
+ "Alamada, Cotabato, Philippines": {
+  "lat": 7.3797893,
+  "lng": 124.5565375
+ },
+ "Dahican Beach, Mati, Davao Oriental, Philippines": {
+  "lat": 6.9243488,
+  "lng": 126.2808986
+ },
+ "Mt. Hamiguitan Range Wildlife Sanctuary, San Isidro, Davao Oriental, Philippines": null,
+ "Mt. Hamiguitan Range Wildlife Sanctuary, San Isidro, Philippines": null,
+ "Davao Oriental, Philippines": {
+  "lat": 7.166667,
+  "lng": 126.333333
+ },
+ "San Isidro, Davao Oriental, Philippines": {
+  "lat": 6.8344901,
+  "lng": 126.0871802
+ },
+ "Dahican Beach, Mati City, Davao Oriental, Philippines": {
+  "lat": 6.9243488,
+  "lng": 126.2808986
+ },
+ "Pujada Bay, Mati City, Davao Oriental, Philippines": {
+  "lat": 6.8534811,
+  "lng": 126.2417394
+ },
+ "Aliwagwag Falls, Cateel, Davao Oriental, Philippines": {
+  "lat": 7.7404388,
+  "lng": 126.3010279
+ },
+ "Samal Island, Davao del Norte, Philippines": {
+  "lat": 7.0453024,
+  "lng": 125.7501162
+ },
+ "Hagimit Falls, Samal Island, Davao del Norte, Philippines": {
+  "lat": 7.0666419,
+  "lng": 125.7230055
+ },
+ "Panabo City, Davao del Norte, Philippines": {
+  "lat": 7.29987,
+  "lng": 125.6807086
+ },
+ "Tagum City, Davao del Norte, Philippines": {
+  "lat": 7.4470784,
+  "lng": 125.8094853
+ },
+ "Talikud Island, Samal, Davao del Norte, Philippines": {
+  "lat": 6.9299815,
+  "lng": 125.7012473
+ },
+ "Sanipaan Shoal, Samal Island, Davao del Norte, Philippines": {
+  "lat": 7.1578449,
+  "lng": 125.6816988
+ },
+ "Island Garden City of Samal, Davao del Norte, Philippines": {
+  "lat": 7.0780265,
+  "lng": 125.7120437
+ },
+ "Davao City, Davao del Sur, Philippines": {
+  "lat": 7.0857729,
+  "lng": 125.6160832
+ },
+ "Roxas Avenue, Davao City, Davao del Sur, Philippines": {
+  "lat": 7.0688566,
+  "lng": 125.6150965
+ },
+ "Mount Apo Natural Park (via Kidapawan or Digos), Davao del Sur, Philippines": null,
+ "Mount Apo Natural Park (via Kidapawan or Digos), Philippines": null,
+ "Davao del Sur, Philippines": {
+  "lat": 6.6983658,
+  "lng": 125.3612135
+ },
+ "Mt. Apo, Mt. Pulag, Mt. Kanlaon, Davao del Sur, Benguet, Negros Occidental, Philippines": null,
+ "Mt. Apo, Mt. Pulag, Mt. Kanlaon, Philippines": null,
+ "Davao del Sur, Benguet, Negros Occidental, Philippines": null,
+ "Borongan City, Eastern Samar, Philippines": {
+  "lat": 11.6079854,
+  "lng": 125.4322433
+ },
+ "Guiuan, Eastern Samar, Philippines": {
+  "lat": 11.0306685,
+  "lng": 125.7236686
+ },
+ "Guisi Point, Nueva Valencia, Guimaras, Philippines": null,
+ "Guisi Point, Nueva Valencia, Philippines": null,
+ "Guimaras, Philippines": {
+  "lat": 10.5730629,
+  "lng": 122.6238907
+ },
+ "Jordan, Guimaras, Philippines": {
+  "lat": 10.5959639,
+  "lng": 122.5877929
+ },
+ "Kiangan, Ifugao, Ifugao, Philippines": {
+  "lat": 16.7763746,
+  "lng": 121.0868305
+ },
+ "Mayoyao, Ifugao, Philippines": {
+  "lat": 16.9726302,
+  "lng": 121.2221837
+ },
+ "Mt. Polis (Banaue-Bontoc road), Ifugao, Philippines": null,
+ "Mt. Polis (Banaue-Bontoc road), Philippines": null,
+ "Ifugao, Philippines": {
+  "lat": 16.87,
+  "lng": 121.22
+ },
+ "Banaue, Ifugao, Ifugao, Philippines": {
+  "lat": 16.9117713,
+  "lng": 121.0613769
+ },
+ "Banaue, Ifugao, Philippines": {
+  "lat": 16.9117713,
+  "lng": 121.0613769
+ },
+ "Hungduan, Ifugao, Philippines": {
+  "lat": 16.8387827,
+  "lng": 121.0057639
+ },
+ "Batad, Banaue, Ifugao, Philippines": {
+  "lat": 16.9340965,
+  "lng": 121.1362684
+ },
+ "Batac miki houses, Ilocos Norte, Philippines": null,
+ "Batac miki houses, Philippines": null,
+ "Ilocos Norte, Philippines": {
+  "lat": 18.166667,
+  "lng": 120.75
+ },
+ "Burgos, Ilocos Norte, Philippines": {
+  "lat": 18.5117704,
+  "lng": 120.64429
+ },
+ "Bangui, Ilocos Norte, Philippines": {
+  "lat": 18.5366878,
+  "lng": 120.7655254
+ },
+ "Laoag, Ilocos Norte, Philippines": {
+  "lat": 18.1973235,
+  "lng": 120.5935433
+ },
+ "Adams, Ilocos Norte, Philippines": {
+  "lat": 18.4613933,
+  "lng": 120.9015722
+ },
+ "Laoag carinderias, Ilocos Norte, Philippines": null,
+ "Laoag carinderias, Philippines": null,
+ "Laoag and Vigan grill houses, Ilocos Norte, Philippines": null,
+ "Laoag and Vigan grill houses, Philippines": null,
+ "Paoay, Ilocos Norte, Philippines": {
+  "lat": 18.0617813,
+  "lng": 120.5195093
+ },
+ "Blue Lagoon, Pagudpud, Ilocos Norte, Philippines": {
+  "lat": 18.6248018,
+  "lng": 120.861483
+ },
+ "Pagudpud, Ilocos Norte, Philippines": {
+  "lat": 18.5593916,
+  "lng": 120.7869782
+ },
+ "Paoay Sand Dunes, Ilocos Norte, Philippines": {
+  "lat": 18.1404978,
+  "lng": 120.5172062
+ },
+ "Manila to Laoag route, Ilocos Norte, Philippines": null,
+ "Manila to Laoag route, Philippines": null,
+ "Vigan, Ilocos Sur, Philippines": {
+  "lat": 17.5755487,
+  "lng": 120.3872632
+ },
+ "Vigan City, Ilocos Sur, Philippines": {
+  "lat": 17.5755487,
+  "lng": 120.3872632
+ },
+ "Gregorio del Pilar, Ilocos Sur, Philippines": {
+  "lat": 17.1460297,
+  "lng": 120.6118325
+ },
+ "Santa Maria, Ilocos Sur, Philippines": {
+  "lat": 17.3698618,
+  "lng": 120.4808168
+ },
+ "Calle Crisologo, Vigan, Ilocos Sur, Philippines": {
+  "lat": 17.5719572,
+  "lng": 120.3888809
+ },
+ "Candon City, Ilocos Sur, Philippines": {
+  "lat": 17.1656592,
+  "lng": 120.4414933
+ },
+ "Vigan heritage restaurants, Ilocos Sur, Philippines": null,
+ "Vigan heritage restaurants, Philippines": null,
+ "Ilocos Sur, Philippines": {
+  "lat": 17.2,
+  "lng": 120.5
+ },
+ "Vigan and Laoag, Ilocos Sur, Philippines": null,
+ "Vigan and Laoag, Philippines": null,
+ "Miagao, Iloilo, Iloilo, Philippines": {
+  "lat": 10.6410895,
+  "lng": 122.2355455
+ },
+ "Miagao, Iloilo, Philippines": {
+  "lat": 10.6410895,
+  "lng": 122.2355455
+ },
+ "Iloilo City, Iloilo, Philippines": {
+  "lat": 10.6918584,
+  "lng": 122.5688537
+ },
+ "Passi City, Iloilo, Philippines": {
+  "lat": 11.1173503,
+  "lng": 122.6468706
+ },
+ "Cabatuan, Iloilo, Philippines": {
+  "lat": 10.8798603,
+  "lng": 122.4819482
+ },
+ "Villa Beach, Arevalo, Iloilo City, Iloilo, Philippines": {
+  "lat": 10.6834251,
+  "lng": 122.4911459
+ },
+ "Molo, Iloilo City, Iloilo, Philippines": {
+  "lat": 10.6970423,
+  "lng": 122.5440681
+ },
+ "Jaro, Iloilo City, Iloilo, Philippines": {
+  "lat": 10.7243999,
+  "lng": 122.5573288
+ },
+ "Arevalo, Iloilo City, Iloilo, Philippines": {
+  "lat": 10.68864,
+  "lng": 122.5159886
+ },
+ "San Joaquin, Iloilo, Philippines": {
+  "lat": 10.5867556,
+  "lng": 122.142027
+ },
+ "Western Visayas heritage towns, Iloilo, Philippines": null,
+ "Western Visayas heritage towns, Philippines": null,
+ "Iloilo, Philippines": {
+  "lat": 10.9522168,
+  "lng": 122.5799456
+ },
+ "La Paz, Iloilo City, Iloilo, Philippines": {
+  "lat": 10.711746,
+  "lng": 122.5706379
+ },
+ "Iloilo City eateries, Iloilo, Philippines": null,
+ "Iloilo City eateries, Philippines": null,
+ "Pan de Azucar Island, Concepcion, Iloilo, Philippines": {
+  "lat": 11.2803727,
+  "lng": 123.1690888
+ },
+ "Sicogon Island, Carles, Iloilo, Philippines": {
+  "lat": 11.4447615,
+  "lng": 123.2604103
+ },
+ "Islas de Gigantes, Carles, Iloilo, Philippines": null,
+ "Islas de Gigantes, Carles, Philippines": null,
+ "Ilagan, Isabela, Philippines": {
+  "lat": 17.1486341,
+  "lng": 121.8886466
+ },
+ "Santiago City, Isabela, Philippines": {
+  "lat": 16.6915963,
+  "lng": 121.5478637
+ },
+ "Cauayan City, Isabela, Philippines": {
+  "lat": 16.9305428,
+  "lng": 121.7522268
+ },
+ "Tabuk City, Kalinga, Philippines": {
+  "lat": 17.4111502,
+  "lng": 121.4414409
+ },
+ "Buscalan, Tinglayan, Kalinga, Philippines": {
+  "lat": 17.2300885,
+  "lng": 121.0858193
+ },
+ "San Juan, La Union, Philippines": {
+  "lat": 16.6699328,
+  "lng": 120.3385507
+ },
+ "San Fernando City, La Union, Philippines": {
+  "lat": 16.6047725,
+  "lng": 120.3029801
+ },
+ "San Juan, La Union, La Union, Philippines": {
+  "lat": 16.6699328,
+  "lng": 120.3385507
+ },
+ "Naguilian, La Union, Philippines": {
+  "lat": 16.5313384,
+  "lng": 120.3941216
+ },
+ "San Pablo City, Laguna, Philippines": {
+  "lat": 14.0731432,
+  "lng": 121.3178879
+ },
+ "San Pedro City, Laguna, Philippines": {
+  "lat": 14.3344861,
+  "lng": 121.0293648
+ },
+ "Nagcarlan, Laguna, Philippines": {
+  "lat": 14.1332036,
+  "lng": 121.4153448
+ },
+ "Makiling Botanic Gardens, Los Baños, Laguna, Philippines": {
+  "lat": 14.1558111,
+  "lng": 121.2351684
+ },
+ "Pagsanjan, Laguna, Philippines": {
+  "lat": 14.2728846,
+  "lng": 121.4558355
+ },
+ "Pansol, Calamba, Laguna, Philippines": {
+  "lat": 14.1785854,
+  "lng": 121.183657
+ },
+ "Los Baños, Laguna, Philippines": {
+  "lat": 14.17909,
+  "lng": 121.2217911
+ },
+ "Santa Cruz public market, Laguna, Philippines": {
+  "lat": 14.2865694,
+  "lng": 121.4118934
+ },
+ "Mt. Makiling Forest Reserve, Los Baños, Laguna, Philippines": {
+  "lat": 14.1377739,
+  "lng": 121.2124223
+ },
+ "Biñan City, Laguna, Philippines": {
+  "lat": 14.3388259,
+  "lng": 121.0841826
+ },
+ "Santa Rosa, Laguna, Laguna, Philippines": {
+  "lat": 14.3146042,
+  "lng": 121.1137004
+ },
+ "Cabuyao City, Laguna, Philippines": {
+  "lat": 14.26709,
+  "lng": 121.1268524
+ },
+ "Paete, Laguna, Philippines": {
+  "lat": 14.3641222,
+  "lng": 121.4815784
+ },
+ "Pakil, Laguna, Philippines": {
+  "lat": 14.3807742,
+  "lng": 121.4786229
+ },
+ "Timoga Springs, Iligan City, Lanao del Norte, Philippines": null,
+ "Timoga Springs, Iligan City, Philippines": null,
+ "Lanao del Norte, Philippines": {
+  "lat": 7.9579723,
+  "lng": 123.9021124
+ },
+ "Iligan, Lanao del Norte, Philippines": {
+  "lat": 8.1301206,
+  "lng": 124.214946
+ },
+ "Maria Cristina Falls, Iligan City, Lanao del Norte, Philippines": {
+  "lat": 8.1876707,
+  "lng": 124.2000923
+ },
+ "Tinago Falls, Iligan City, Lanao del Norte, Philippines": {
+  "lat": 8.1592095,
+  "lng": 124.1859362
+ },
+ "Dayawan, Marawi City, Lanao del Sur, Philippines": null,
+ "Dayawan, Marawi City, Philippines": null,
+ "Lanao del Sur, Philippines": {
+  "lat": 7.8776443,
+  "lng": 124.3754759
+ },
+ "Ormoc City, Leyte, Philippines": {
+  "lat": 11.0090349,
+  "lng": 124.609394
+ },
+ "Palompon, Leyte, Philippines": {
+  "lat": 11.0483792,
+  "lng": 124.3825547
+ },
+ "Tacloban City, Leyte, Philippines": {
+  "lat": 11.2274637,
+  "lng": 125.0274693
+ },
+ "Coconut country barrios, Leyte, Leyte, Philippines": null,
+ "Coconut country barrios, Leyte, Philippines": null,
+ "Leyte, Philippines": {
+  "lat": 10.7841157,
+  "lng": 124.892321
+ },
+ "Tacloban, Leyte, Philippines": {
+  "lat": 11.2263075,
+  "lng": 125.023105
+ },
+ "Canigao Island, Matalom, Leyte, Philippines": {
+  "lat": 10.2484678,
+  "lng": 124.7498069
+ },
+ "Dagami and Tacloban City, Leyte, Philippines": null,
+ "Dagami and Tacloban City, Philippines": null,
+ "Inopacan, Leyte, Philippines": {
+  "lat": 10.5003419,
+  "lng": 124.7398262
+ },
+ "Baybay City, Leyte, Philippines": {
+  "lat": 10.6778023,
+  "lng": 124.7977531
+ },
+ "Cotabato City markets, Maguindanao del Norte, Philippines": null,
+ "Cotabato City markets, Philippines": null,
+ "Maguindanao del Norte, Philippines": {
+  "lat": 7.1088356,
+  "lng": 124.2072945
+ },
+ "Datu Saudi-Ampatuan, Maguindanao del Sur, Philippines": {
+  "lat": 6.9261327,
+  "lng": 124.4145057
+ },
+ "Maniwaya Island, Santa Cruz, Marinduque, Philippines": {
+  "lat": 13.5276175,
+  "lng": 122.1216253
+ },
+ "Boac, Marinduque, Philippines": {
+  "lat": 13.4479146,
+  "lng": 121.8400274
+ },
+ "Boac and nearby towns, Marinduque, Philippines": null,
+ "Boac and nearby towns, Philippines": null,
+ "Marinduque, Philippines": {
+  "lat": 13.416667,
+  "lng": 121.95
+ },
+ "Masbate City, Masbate, Philippines": {
+  "lat": 12.3710899,
+  "lng": 123.6239223
+ },
+ "San Pascual, Burias, Masbate, Philippines": null,
+ "San Pascual, Burias, Philippines": null,
+ "Masbate, Philippines": {
+  "lat": 12.166667,
+  "lng": 123.583333
+ },
+ "Ticao Island, Masbate, Philippines": {
+  "lat": 12.5158696,
+  "lng": 123.7086789
+ },
+ "Parañaque, Metro Manila, Philippines": {
+  "lat": 14.5008116,
+  "lng": 120.9915327
+ },
+ "Malabon City, Metro Manila, Philippines": {
+  "lat": 14.6578504,
+  "lng": 120.9511261
+ },
+ "Dampa markets, Macapagal Boulevard, Pasay, Metro Manila, Philippines": null,
+ "Dampa markets, Macapagal Boulevard, Pasay, Philippines": null,
+ "Metro Manila, Philippines": {
+  "lat": 14.5736108,
+  "lng": 121.0329706
+ },
+ "NAIA Arrivals, Pasay, Metro Manila, Philippines": {
+  "lat": 14.5190386,
+  "lng": 121.0136553
+ },
+ "24-hour paresan stalls, Manila and Quezon City, Metro Manila, Philippines": null,
+ "24-hour paresan stalls, Manila and Quezon City, Philippines": null,
+ "Intramuros, Manila, Metro Manila, Philippines": {
+  "lat": 14.5909588,
+  "lng": 120.9746537
+ },
+ "Manila, Metro Manila, Philippines": {
+  "lat": 14.5904492,
+  "lng": 120.9803621
+ },
+ "National Archives of the Philippines, Paco, Metro Manila, Philippines": {
+  "lat": 14.5841678,
+  "lng": 120.9936372
+ },
+ "Quezon City, Metro Manila, Philippines": {
+  "lat": 14.6510546,
+  "lng": 121.0486254
+ },
+ "Pasay, Metro Manila, Philippines": {
+  "lat": 14.5436995,
+  "lng": 120.9946503
+ },
+ "Makati, Metro Manila, Philippines": {
+  "lat": 14.5567949,
+  "lng": 121.0211226
+ },
+ "UP Diliman, Quezon City, Metro Manila, Philippines": {
+  "lat": 14.650376,
+  "lng": 121.0676426
+ },
+ "Manila Bay seafront, Pasay, Metro Manila, Philippines": null,
+ "Manila Bay seafront, Pasay, Philippines": null,
+ "Valenzuela, Metro Manila, Philippines": {
+  "lat": 14.6916903,
+  "lng": 120.9694534
+ },
+ "Navotas, Metro Manila, Philippines": {
+  "lat": 14.6571862,
+  "lng": 120.9479692
+ },
+ "Muntinlupa, Metro Manila, Philippines": {
+  "lat": 14.3892634,
+  "lng": 121.0449101
+ },
+ "Caloocan, Metro Manila, Philippines": {
+  "lat": 14.6513445,
+  "lng": 120.9723835
+ },
+ "TESDA-accredited training center, Metro Manila, Philippines": null,
+ "TESDA-accredited training center, Philippines": null,
+ "CAAP-authorized RPAS training organization, Metro Manila, Philippines": null,
+ "CAAP-authorized RPAS training organization, Philippines": null,
+ "National Telecommunications Commission, Quezon City, Metro Manila, Philippines": {
+  "lat": 14.6414744,
+  "lng": 121.0448119
+ },
+ "Mandaluyong, Metro Manila, Metro Manila, Philippines": {
+  "lat": 14.5774392,
+  "lng": 121.0338973
+ },
+ "Motorcycle riding academy and LTO licensing office, Metro Manila, Philippines": null,
+ "Motorcycle riding academy and LTO licensing office, Philippines": null,
+ "LTO-accredited driving school and licensing office, Metro Manila, Philippines": null,
+ "LTO-accredited driving school and licensing office, Philippines": null,
+ "Sacred Heart Retreat House, Novaliches, Quezon City, Metro Manila, Philippines": null,
+ "Sacred Heart Retreat House, Novaliches, Quezon City, Philippines": null,
+ "Philippine International Convention Center, Pasay, Metro Manila, Philippines": {
+  "lat": 14.5543133,
+  "lng": 120.9830575
+ },
+ "BGC, Taguig, Metro Manila, Philippines": {
+  "lat": 14.550806,
+  "lng": 121.050972
+ },
+ "CCP Complex, Manila Bay, Metro Manila, Philippines": null,
+ "CCP Complex, Manila Bay, Philippines": null,
+ "National Museum of Anthropology, Manila, Metro Manila, Philippines": {
+  "lat": 14.5853314,
+  "lng": 120.9807177
+ },
+ "National Museum of Natural History, Manila, Metro Manila, Philippines": {
+  "lat": 14.583296,
+  "lng": 120.9822763
+ },
+ "EDSA, Metro Manila, Metro Manila, Philippines": {
+  "lat": 14.5388064,
+  "lng": 121.0006313
+ },
+ "Pasig River, Metro Manila, Metro Manila, Philippines": {
+  "lat": 14.5782162,
+  "lng": 121.0196041
+ },
+ "Quiapo Church, Manila, Metro Manila, Philippines": {
+  "lat": 14.5988612,
+  "lng": 120.9837971
+ },
+ "Binondo, Manila, Metro Manila, Philippines": {
+  "lat": 14.5999164,
+  "lng": 120.9740253
+ },
+ "Escolta, Manila, Metro Manila, Philippines": {
+  "lat": 14.5963832,
+  "lng": 120.9775262
+ },
+ "Manila Metropolitan Theater, Manila, Metro Manila, Philippines": {
+  "lat": 14.5939397,
+  "lng": 120.9805369
+ },
+ "Cultural Center of the Philippines, Pasay, Metro Manila, Philippines": {
+  "lat": 14.5585666,
+  "lng": 120.9857899
+ },
+ "Pasig City, Metro Manila, Philippines": {
+  "lat": 14.5605166,
+  "lng": 121.0764343
+ },
+ "UP Diliman Sunken Garden, Metro Manila, Philippines": null,
+ "UP Diliman Sunken Garden, Philippines": null,
+ "Rizal Park (Luneta), Manila, Metro Manila, Philippines": {
+  "lat": 14.5829847,
+  "lng": 120.9792724
+ },
+ "St. Joseph Parish Church, Las Pinas, Metro Manila, Philippines": {
+  "lat": 14.4810354,
+  "lng": 120.9813904
+ },
+ "Divisoria, Tondo, Manila, Metro Manila, Philippines": {
+  "lat": 14.6102377,
+  "lng": 120.9727691
+ },
+ "La Mesa Ecopark, Quezon City, Metro Manila, Philippines": null,
+ "La Mesa Ecopark, Quezon City, Philippines": null,
+ "Pateros, Metro Manila, Philippines": {
+  "lat": 14.5447555,
+  "lng": 121.067134
+ },
+ "Pinaglabanan, San Juan City, Metro Manila, Philippines": {
+  "lat": 14.6052271,
+  "lng": 121.0317079
+ },
+ "Tondo, Manila, Metro Manila, Philippines": {
+  "lat": 14.6189095,
+  "lng": 120.9660386
+ },
+ "Makati, Metro Manila, Metro Manila, Philippines": {
+  "lat": 14.5567949,
+  "lng": 121.0211226
+ },
+ "Quiapo, Manila, Metro Manila, Philippines": {
+  "lat": 14.5982613,
+  "lng": 120.9836081
+ },
+ "University of Santo Tomas, Manila, Metro Manila, Philippines": {
+  "lat": 14.6098426,
+  "lng": 120.9894646
+ },
+ "Poblacion, Makati, Metro Manila, Philippines": {
+  "lat": 14.5662225,
+  "lng": 121.0313787
+ },
+ "Manila language schools, Metro Manila, Philippines": null,
+ "Manila language schools, Philippines": null,
+ "Baybayin workshops, Manila, Metro Manila, Philippines": null,
+ "Baybayin workshops, Manila, Philippines": null,
+ "Maginhawa, Quezon City, Metro Manila, Philippines": {
+  "lat": 14.6466426,
+  "lng": 121.0588905
+ },
+ "Ceramics studios, Quezon City, Metro Manila, Philippines": null,
+ "Ceramics studios, Quezon City, Philippines": null,
+ "TESDA-accredited barista training centers, Metro Manila, Philippines": null,
+ "TESDA-accredited barista training centers, Philippines": null,
+ "FSL programs, Manila, Metro Manila, Philippines": null,
+ "FSL programs, Manila, Philippines": null,
+ "TV network studios, Quezon City, Metro Manila, Philippines": null,
+ "TV network studios, Quezon City, Philippines": null,
+ "TV studios, Metro Manila, Metro Manila, Philippines": null,
+ "TV studios, Metro Manila, Philippines": null,
+ "Major arena, Metro Manila, Metro Manila, Philippines": null,
+ "Major arena, Metro Manila, Philippines": null,
+ "Quezon City fan cafes, Metro Manila, Philippines": null,
+ "Quezon City fan cafes, Philippines": null,
+ "Festival cinemas, Metro Manila, Metro Manila, Philippines": null,
+ "Festival cinemas, Metro Manila, Philippines": null,
+ "Convention centers, Pasay, Metro Manila, Philippines": null,
+ "Convention centers, Pasay, Philippines": null,
+ "Metro Manila convention venues, Metro Manila, Philippines": null,
+ "Metro Manila convention venues, Philippines": null,
+ "Comedy bars, Makati/BGC, Metro Manila, Philippines": null,
+ "Comedy bars, Makati/BGC, Philippines": null,
+ "Ortigas, Pasig, Metro Manila, Philippines": {
+  "lat": 14.5853472,
+  "lng": 121.064108
+ },
+ "Bonifacio Global City, Taguig, Metro Manila, Philippines": {
+  "lat": 14.550806,
+  "lng": 121.050972
+ },
+ "Theaters, Quezon City, Metro Manila, Philippines": null,
+ "Theaters, Quezon City, Philippines": null,
+ "Parade route, Metro Manila, Metro Manila, Philippines": null,
+ "Parade route, Metro Manila, Philippines": null,
+ "Major city marathon (Manila, Cebu, Davao), Metro Manila, Philippines": null,
+ "Major city marathon (Manila, Cebu, Davao), Philippines": null,
+ "Seaside Boulevard, Pasay, Metro Manila, Philippines": {
+  "lat": 14.5422498,
+  "lng": 120.9849064
+ },
+ "Binondo/Quiapo, Manila, Metro Manila, Philippines": null,
+ "Binondo/Quiapo, Manila, Philippines": null,
+ "Public and club courts across Metro Manila, Metro Manila, Philippines": null,
+ "Public and club courts across Metro Manila, Philippines": null,
+ "Neighborhood covered courts nationwide, Metro Manila, Philippines": null,
+ "Neighborhood covered courts nationwide, Philippines": null,
+ "Community and commercial 3x3 leagues, Metro Manila, Philippines": null,
+ "Community and commercial 3x3 leagues, Philippines": null,
+ "Fort Bonifacio Tenement, Western Bicutan, Taguig, Metro Manila, Philippines": {
+  "lat": 14.5086059,
+  "lng": 121.0376295
+ },
+ "Home arenas like Caloocan Sports Complex and Alonte Sports Arena, Biñan, Metro Manila, Philippines": null,
+ "Home arenas like Caloocan Sports Complex and Alonte Sports Arena, Biñan, Philippines": null,
+ "PhilSports Arena, Pasig, Metro Manila, Philippines": {
+  "lat": 14.5774605,
+  "lng": 121.066159
+ },
+ "Rizal Memorial Football Stadium, Malate, Manila, Metro Manila, Philippines": {
+  "lat": 14.5634454,
+  "lng": 120.9919312
+ },
+ "Fight gyms across Metro Manila, Metro Manila, Philippines": null,
+ "Fight gyms across Metro Manila, Philippines": null,
+ "Rizal Memorial Sports Complex, Malate, Manila, Metro Manila, Philippines": {
+  "lat": 14.5629256,
+  "lng": 120.9928622
+ },
+ "Chess plaza, Rizal Park (Luneta), Manila, Metro Manila, Philippines": null,
+ "Chess plaza, Rizal Park (Luneta), Manila, Philippines": null,
+ "Local billiard halls nationwide, Metro Manila, Philippines": null,
+ "Local billiard halls nationwide, Philippines": null,
+ "Classic tenpin lanes in Metro Manila malls, Metro Manila, Philippines": null,
+ "Classic tenpin lanes in Metro Manila malls, Philippines": null,
+ "School meets, Palarong Pambansa, and barangay courts, Metro Manila, Philippines": null,
+ "School meets, Palarong Pambansa, and barangay courts, Philippines": null,
+ "Makati City, Metro Manila, Philippines": {
+  "lat": 14.5567949,
+  "lng": 121.0211226
+ },
+ "La Mesa Watershed, Quezon City, Metro Manila, Philippines": {
+  "lat": 14.7431868,
+  "lng": 121.0980111
+ },
+ "DSWD National Resource Operations Center, Pasay, Metro Manila, Philippines": null,
+ "DSWD National Resource Operations Center, Pasay, Philippines": null,
+ "Animal shelters, Metro Manila, Metro Manila, Philippines": null,
+ "Animal shelters, Metro Manila, Philippines": null,
+ "Metro Manila, Metro Manila, Philippines": {
+  "lat": 14.5466577,
+  "lng": 120.9832575
+ },
+ "Helping Land, Tondo, Manila, Metro Manila, Philippines": null,
+ "Helping Land, Tondo, Manila, Philippines": null,
+ "Isla de Convalecencia, Pasig River, Manila, Metro Manila, Philippines": null,
+ "Isla de Convalecencia, Pasig River, Manila, Philippines": null,
+ "Santa Cruz, Manila, Metro Manila, Philippines": {
+  "lat": 14.5999016,
+  "lng": 120.9803328
+ },
+ "Pasig River esteros, Manila, Metro Manila, Philippines": null,
+ "Pasig River esteros, Manila, Philippines": null,
+ "Public hospital pediatric wards, Metro Manila, Metro Manila, Philippines": null,
+ "Public hospital pediatric wards, Metro Manila, Philippines": null,
+ "Hospital and charity hair-donation drives, Metro Manila, Philippines": null,
+ "Hospital and charity hair-donation drives, Philippines": null,
+ "Photo studios, Metro Manila, Metro Manila, Philippines": null,
+ "Photo studios, Metro Manila, Philippines": null,
+ "Ermita, Manila, Metro Manila, Philippines": {
+  "lat": 14.5785921,
+  "lng": 120.9794956
+ },
+ "Pasay City, Metro Manila, Philippines": {
+  "lat": 14.5436995,
+  "lng": 120.9946503
+ },
+ "Marikina, Metro Manila, Philippines": {
+  "lat": 14.6331084,
+  "lng": 121.0993541
+ },
+ "University of the Philippines Diliman, Quezon City, Metro Manila, Philippines": {
+  "lat": 14.650376,
+  "lng": 121.0676426
+ },
+ "Roxas Boulevard Baywalk, Manila, Metro Manila, Philippines": null,
+ "Roxas Boulevard Baywalk, Manila, Philippines": null,
+ "Major malls, Metro Manila, Metro Manila, Philippines": null,
+ "Major malls, Metro Manila, Philippines": null,
+ "Major arenas, Metro Manila, Metro Manila, Philippines": null,
+ "Major arenas, Metro Manila, Philippines": null,
+ "Manila Bay waterfront, Pasay, Metro Manila, Philippines": null,
+ "Manila Bay waterfront, Pasay, Philippines": null,
+ "Ozamiz City, Misamis Occidental, Philippines": {
+  "lat": 8.1470175,
+  "lng": 123.8459793
+ },
+ "Jimenez, Misamis Occidental, Philippines": {
+  "lat": 8.3343655,
+  "lng": 123.8400281
+ },
+ "Tangub City, Misamis Occidental, Philippines": {
+  "lat": 8.0609053,
+  "lng": 123.7512585
+ },
+ "Oroquieta City, Misamis Occidental, Philippines": {
+  "lat": 8.4868958,
+  "lng": 123.8074597
+ },
+ "Gingoog City, Misamis Oriental, Philippines": {
+  "lat": 8.8232748,
+  "lng": 125.1012978
+ },
+ "Cagayan de Oro City, Misamis Oriental, Philippines": {
+  "lat": 8.4860705,
+  "lng": 124.656805
+ },
+ "Cagayan de Oro, Misamis Oriental, Philippines": {
+  "lat": 8.4860705,
+  "lng": 124.656805
+ },
+ "El Salvador, Misamis Oriental, Philippines": {
+  "lat": 8.5596597,
+  "lng": 124.5270577
+ },
+ "Marlboro Hills, Sagada, Mountain Province, Philippines": null,
+ "Marlboro Hills, Sagada, Philippines": null,
+ "Mountain Province, Philippines": {
+  "lat": 17.11,
+  "lng": 121.16
+ },
+ "Kaman-utek, Sagada/Bontoc, Mountain Province, Philippines": null,
+ "Kaman-utek, Sagada/Bontoc, Philippines": null,
+ "Sagada, Mountain Province, Philippines": {
+  "lat": 17.0844848,
+  "lng": 120.9005584
+ },
+ "Bontoc–Sagada road, Mountain Province, Philippines": {
+  "lat": 17.0846686,
+  "lng": 120.9010128
+ },
+ "Sagada town eateries, Mountain Province, Philippines": null,
+ "Sagada town eateries, Philippines": null,
+ "Belwang, Sadanga, Mountain Province, Philippines": {
+  "lat": 17.180006,
+  "lng": 121.0097027
+ },
+ "Halo-halo institutions nationwide, Multiple, Philippines": null,
+ "Halo-halo institutions nationwide, Philippines": null,
+ "Multiple, Philippines": {
+  "lat": 14.6452645,
+  "lng": 121.0736184
+ },
+ "Nationwide, Multiple, Philippines": null,
+ "Major peaks nationwide, Multiple, Philippines": null,
+ "Major peaks nationwide, Philippines": null,
+ "Aparri, Cagayan to Matnog, Sorsogon, Multiple, Philippines": null,
+ "Aparri, Cagayan to Matnog, Sorsogon, Philippines": null,
+ "West Philippine Sea, Sulu Sea, Philippine Sea, Multiple, Philippines": null,
+ "West Philippine Sea, Sulu Sea, Philippine Sea, Philippines": null,
+ "Pancit towns nationwide, Multiple, Philippines": null,
+ "Pancit towns nationwide, Philippines": null,
+ "Luzon, Visayas, Mindanao, Multiple, Philippines": null,
+ "Luzon, Visayas, Mindanao, Philippines": null,
+ "Any narrow island (e.g., Siquijor, Camiguin, Batan), Multiple, Philippines": null,
+ "Any narrow island (e.g., Siquijor, Camiguin, Batan), Philippines": null,
+ "Vigan, Cordillera terraces, Baroque Churches, Tubbataha, Puerto Princesa, Mt. Hamiguitan, Multiple, Philippines": null,
+ "Vigan, Cordillera terraces, Baroque Churches, Tubbataha, Puerto Princesa, Mt. Hamiguitan, Philippines": null,
+ "Banaue, Taal Lake, Mayon, Chocolate Hills, Underground River, Tubbataha, Multiple, Philippines": null,
+ "Banaue, Taal Lake, Mayon, Chocolate Hills, Underground River, Tubbataha, Philippines": null,
+ "Heritage churches nationwide, Multiple, Philippines": null,
+ "Heritage churches nationwide, Philippines": null,
+ "Manila, Cebu, Davao, Baguio, Iloilo (or any five), Multiple, Philippines": null,
+ "Manila, Cebu, Davao, Baguio, Iloilo (or any five), Philippines": null,
+ "Strong Republic Nautical Highway (e.g., Batangas–Mindoro–Caticlan), Multiple, Philippines": null,
+ "Strong Republic Nautical Highway (e.g., Batangas–Mindoro–Caticlan), Philippines": null,
+ "Waterfalls nationwide, Multiple, Philippines": null,
+ "Waterfalls nationwide, Philippines": null,
+ "Any office or barangay hall, Nationwide, Philippines": null,
+ "Any office or barangay hall, Philippines": null,
+ "Partner communities nationwide, Nationwide, Philippines": null,
+ "Partner communities nationwide, Philippines": null,
+ "Any provincial home, Nationwide, Philippines": null,
+ "Any provincial home, Philippines": null,
+ "Any fiesta or Filipino restaurant, Nationwide, Philippines": null,
+ "Any fiesta or Filipino restaurant, Philippines": null,
+ "Family home, any barrio, Nationwide, Philippines": null,
+ "Family home, any barrio, Philippines": null,
+ "Any town fiesta, Nationwide, Philippines": null,
+ "Any town fiesta, Philippines": null,
+ "Any provincial barangay, Nationwide, Philippines": null,
+ "Any provincial barangay, Philippines": null,
+ "Anywhere in the Philippines, Nationwide, Philippines": null,
+ "Anywhere in the Philippines, Philippines": null,
+ "Churches nationwide, Nationwide, Philippines": null,
+ "Churches nationwide, Philippines": null,
+ "Towns nationwide, Nationwide, Philippines": null,
+ "Towns nationwide, Philippines": null,
+ "Any neighborhood eatery, Nationwide, Philippines": null,
+ "Any neighborhood eatery, Philippines": null,
+ "Any rural barangay, Nationwide, Philippines": null,
+ "Any rural barangay, Philippines": null,
+ "Open fields and rice paddies, Nationwide, Philippines": null,
+ "Open fields and rice paddies, Philippines": null,
+ "Reef survey sites nationwide, Nationwide, Philippines": null,
+ "Reef survey sites nationwide, Philippines": null,
+ "Various routes, Nationwide, Philippines": null,
+ "Various routes, Philippines": null,
+ "Mission sites nationwide, Nationwide, Philippines": null,
+ "Mission sites nationwide, Philippines": null,
+ "Any neighborhood sari-sari store, Nationwide, Philippines": null,
+ "Any neighborhood sari-sari store, Philippines": null,
+ "Barangay plaza or covered court, Nationwide, Philippines": null,
+ "Barangay plaza or covered court, Philippines": null,
+ "Function halls nationwide, Nationwide, Philippines": null,
+ "Function halls nationwide, Philippines": null,
+ "Beaches and shorelines nationwide, Nationwide, Philippines": null,
+ "Beaches and shorelines nationwide, Philippines": null,
+ "Any residential street, Nationwide, Philippines": null,
+ "Any residential street, Philippines": null,
+ "Street corners nationwide (Pateros is the historic balut capital), Nationwide, Philippines": null,
+ "Street corners nationwide (Pateros is the historic balut capital), Philippines": null,
+ "Any neighborhood gathering, Nationwide, Philippines": null,
+ "Any neighborhood gathering, Philippines": null,
+ "Homes and funeral chapels, Nationwide, Philippines": null,
+ "Homes and funeral chapels, Philippines": null,
+ "Public cemeteries nationwide, Nationwide, Philippines": null,
+ "Public cemeteries nationwide, Philippines": null,
+ "Historic churches of Manila and beyond, Nationwide, Philippines": null,
+ "Historic churches of Manila and beyond, Philippines": null,
+ "Town plazas (notably Pampanga, Rizal, and Marinduque), Nationwide, Philippines": null,
+ "Town plazas (notably Pampanga, Rizal, and Marinduque), Philippines": null,
+ "Residential neighborhoods, Nationwide, Philippines": null,
+ "Residential neighborhoods, Philippines": null,
+ "Family homes, Nationwide, Philippines": null,
+ "Cinemas nationwide, Nationwide, Philippines": null,
+ "Cinemas nationwide, Philippines": null,
+ "Neighborhood computer shops, Nationwide, Philippines": null,
+ "Neighborhood computer shops, Philippines": null,
+ "Town plazas during fiesta season, Nationwide, Philippines": null,
+ "Town plazas during fiesta season, Philippines": null,
+ "Volunteer village build sites nationwide, Nationwide, Philippines": null,
+ "Volunteer village build sites nationwide, Philippines": null,
+ "Homes and heritage sites, Nationwide, Philippines": null,
+ "Homes and heritage sites, Philippines": null,
+ "Unli-KBBQ joints nationwide, Nationwide, Philippines": null,
+ "Unli-KBBQ joints nationwide, Philippines": null,
+ "Any streaming platform, Nationwide, Philippines": null,
+ "Any streaming platform, Philippines": null,
+ "Spas and hilot clinics nationwide, Nationwide, Philippines": null,
+ "Spas and hilot clinics nationwide, Philippines": null,
+ "Any carinderia, Nationwide, Philippines": null,
+ "Any carinderia, Philippines": null,
+ "Any Filipino home or carinderia, Nationwide, Philippines": null,
+ "Any Filipino home or carinderia, Philippines": null,
+ "Any Filipino home or restaurant, Nationwide, Philippines": null,
+ "Any Filipino home or restaurant, Philippines": null,
+ "Volunteer build sites nationwide, Nationwide, Philippines": null,
+ "Volunteer build sites nationwide, Philippines": null,
+ "Public schools nationwide, Nationwide, Philippines": null,
+ "Public schools nationwide, Philippines": null,
+ "Blood centers and mobile drives nationwide, Nationwide, Philippines": null,
+ "Blood centers and mobile drives nationwide, Philippines": null,
+ "Church patios nationwide, Nationwide, Philippines": null,
+ "Church patios nationwide, Philippines": null,
+ "Training centers nationwide, Nationwide, Philippines": null,
+ "Training centers nationwide, Philippines": null,
+ "Pocket stages across Luzon, Visayas, and Mindanao, Nationwide, Philippines": null,
+ "Pocket stages across Luzon, Visayas, and Mindanao, Philippines": null,
+ "Silay City, Negros Occidental, Philippines": {
+  "lat": 10.7994126,
+  "lng": 122.9756149
+ },
+ "Bacolod kansi houses, Negros Occidental, Philippines": null,
+ "Bacolod kansi houses, Philippines": null,
+ "Negros Occidental, Philippines": {
+  "lat": 10.416667,
+  "lng": 123
+ },
+ "Silay, Negros Occidental, Philippines": {
+  "lat": 10.7994126,
+  "lng": 122.9756149
+ },
+ "San Carlos City, Negros Occidental, Philippines": {
+  "lat": 10.486048,
+  "lng": 123.4190385
+ },
+ "Lakawon Island, Cadiz, Negros Occidental, Philippines": {
+  "lat": 11.0424396,
+  "lng": 123.1999923
+ },
+ "Mambukal Resort, Murcia, Negros Occidental, Philippines": {
+  "lat": 10.5112729,
+  "lng": 123.1045107
+ },
+ "Danjugan Island, Bulata, Cauayan, Negros Occidental, Philippines": null,
+ "Danjugan Island, Bulata, Cauayan, Philippines": null,
+ "Danjugan Island, Cauayan, Negros Occidental, Philippines": {
+  "lat": 9.8733153,
+  "lng": 122.3787446
+ },
+ "Bacolod City, Negros Occidental, Philippines": {
+  "lat": 10.6428793,
+  "lng": 122.9302116
+ },
+ "Bago City, Negros Occidental, Philippines": {
+  "lat": 10.5376299,
+  "lng": 122.8352802
+ },
+ "Panaad Park and Stadium, Bacolod, Negros Occidental, Philippines": null,
+ "Panaad Park and Stadium, Bacolod, Philippines": {
+  "lat": 10.623785,
+  "lng": 122.9646073
+ },
+ "La Castellana, Negros Occidental, Philippines": {
+  "lat": 10.3230498,
+  "lng": 123.0187418
+ },
+ "Bacolod, Negros Occidental, Philippines": {
+  "lat": 10.7770007,
+  "lng": 123.0180147
+ },
+ "Victorias City, Negros Occidental, Philippines": {
+  "lat": 10.8828993,
+  "lng": 123.1083055
+ },
+ "Pulupandan / Bago River mouth, Negros Occidental, Philippines": null,
+ "Pulupandan / Bago River mouth, Philippines": null,
+ "Mambukal Resort & Wildlife Sanctuary, Murcia, Negros Occidental, Philippines": null,
+ "Mambukal Resort & Wildlife Sanctuary, Murcia, Philippines": null,
+ "Sipalay City, Negros Occidental, Philippines": {
+  "lat": 9.7491266,
+  "lng": 122.4040602
+ },
+ "Talisay City, Negros Occidental, Philippines": {
+  "lat": 10.7372649,
+  "lng": 122.9673325
+ },
+ "Escalante City, Negros Occidental, Philippines": {
+  "lat": 10.8412587,
+  "lng": 123.499306
+ },
+ "Himamaylan City, Negros Occidental, Philippines": {
+  "lat": 10.0992841,
+  "lng": 122.870539
+ },
+ "Kabankalan City, Negros Occidental, Philippines": {
+  "lat": 9.9889153,
+  "lng": 122.8134802
+ },
+ "La Carlota City, Negros Occidental, Philippines": {
+  "lat": 10.4268649,
+  "lng": 122.9208074
+ },
+ "Sagay City, Negros Occidental, Philippines": {
+  "lat": 10.8960681,
+  "lng": 123.4154617
+ },
+ "Sibulan, Negros Oriental, Philippines": {
+  "lat": 9.3589133,
+  "lng": 123.2853598
+ },
+ "Apo Island, Dauin, Negros Oriental, Philippines": {
+  "lat": 9.0768235,
+  "lng": 123.2688201
+ },
+ "Dauin, Negros Oriental, Philippines": {
+  "lat": 9.1897165,
+  "lng": 123.26577
+ },
+ "Manjuyod Sandbar, Bais Bay, Negros Oriental, Philippines": null,
+ "Manjuyod Sandbar, Bais Bay, Philippines": null,
+ "Negros Oriental, Philippines": {
+  "lat": 9.75,
+  "lng": 123
+ },
+ "Silliman University, Dumaguete City, Negros Oriental, Philippines": {
+  "lat": 9.3131921,
+  "lng": 123.3058842
+ },
+ "Mt. Talinis, Valencia, Negros Oriental, Philippines": null,
+ "Mt. Talinis, Valencia, Philippines": null,
+ "Dumaguete City, Negros Oriental, Philippines": {
+  "lat": 9.3054777,
+  "lng": 123.3080446
+ },
+ "Tanjay City, Negros Oriental, Philippines": {
+  "lat": 9.5164507,
+  "lng": 123.1566353
+ },
+ "Guihulngan City, Negros Oriental, Philippines": {
+  "lat": 10.1195972,
+  "lng": 123.273871
+ },
+ "Canlaon City, Negros Oriental, Philippines": {
+  "lat": 10.386953,
+  "lng": 123.2186238
+ },
+ "Bayawan City, Negros Oriental, Philippines": {
+  "lat": 9.3661533,
+  "lng": 122.804837
+ },
+ "Painitan, Dumaguete public market, Negros Oriental, Philippines": null,
+ "Painitan, Dumaguete public market, Philippines": null,
+ "Bais City, Tañon Strait, Negros Oriental, Philippines": null,
+ "Bais City, Tañon Strait, Philippines": null,
+ "Mt. Apo, Kidapawan, North Cotabato / Davao del Sur, Philippines": {
+  "lat": 6.9873416,
+  "lng": 125.2709954
+ },
+ "Capul, Northern Samar, Philippines": {
+  "lat": 12.4230698,
+  "lng": 124.1822429
+ },
+ "Biri Island, Northern Samar, Philippines": {
+  "lat": 12.6678102,
+  "lng": 124.3776994
+ },
+ "Science City of Muñoz, Nueva Ecija, Philippines": {
+  "lat": 15.7135413,
+  "lng": 120.9039451
+ },
+ "Dupinga River, Gabaldon, Nueva Ecija, Philippines": {
+  "lat": 15.5196248,
+  "lng": 121.3313759
+ },
+ "Palayan City, Nueva Ecija, Philippines": {
+  "lat": 15.5408666,
+  "lng": 121.0842988
+ },
+ "Barangay Bibiclat, Aliaga, Nueva Ecija, Philippines": {
+  "lat": 15.522632,
+  "lng": 120.8617459
+ },
+ "Gapan City, Nueva Ecija, Philippines": {
+  "lat": 15.3141117,
+  "lng": 120.9614936
+ },
+ "General Tinio, Nueva Ecija, Philippines": {
+  "lat": 15.3501261,
+  "lng": 121.0498041
+ },
+ "San Jose City, Nueva Ecija, Philippines": {
+  "lat": 15.7547305,
+  "lng": 121.0376878
+ },
+ "Capisaan Cave, Kasibu, Nueva Vizcaya, Philippines": null,
+ "Capisaan Cave, Kasibu, Philippines": null,
+ "Nueva Vizcaya, Philippines": {
+  "lat": 16.35,
+  "lng": 121.13
+ },
+ "Bayombong, Nueva Vizcaya, Philippines": {
+  "lat": 16.4829252,
+  "lng": 121.1505219
+ },
+ "Sablayan, Occidental Mindoro, Philippines": {
+  "lat": 12.8470382,
+  "lng": 120.7799198
+ },
+ "Mts. Iglit-Baco Natural Park, Occidental Mindoro, Philippines": null,
+ "Mts. Iglit-Baco Natural Park, Philippines": null,
+ "Occidental Mindoro, Philippines": {
+  "lat": 13.0000021,
+  "lng": 120.9166666
+ },
+ "Calapan City, Oriental Mindoro, Philippines": {
+  "lat": 13.4145513,
+  "lng": 121.179543
+ },
+ "Puerto Galera, Oriental Mindoro, Philippines": {
+  "lat": 13.5017104,
+  "lng": 120.9543353
+ },
+ "Mt. Halcon, Baco, Oriental Mindoro, Philippines": null,
+ "Mt. Halcon, Baco, Philippines": null,
+ "Oriental Mindoro, Philippines": {
+  "lat": 13.2,
+  "lng": 121.2
+ },
+ "Puerto Galera, Palawan, Albay, Apayao, Oriental Mindoro, Palawan, Albay, Apayao, Philippines": null,
+ "Puerto Galera, Palawan, Albay, Apayao, Philippines": null,
+ "Oriental Mindoro, Palawan, Albay, Apayao, Philippines": null,
+ "Maquinit Hot Spring, Coron, Palawan, Philippines": {
+  "lat": 11.9916467,
+  "lng": 120.2285924
+ },
+ "Coron, Busuanga, Palawan, Philippines": {
+  "lat": 11.9988537,
+  "lng": 120.2024238
+ },
+ "Culion, Palawan, Philippines": {
+  "lat": 11.8905322,
+  "lng": 120.0220973
+ },
+ "Puerto Princesa, Palawan, Philippines": {
+  "lat": 9.7805207,
+  "lng": 118.7301426
+ },
+ "Calauit, Busuanga, Palawan, Philippines": {
+  "lat": 12.2803015,
+  "lng": 119.934549
+ },
+ "Balabac, Palawan, Philippines": {
+  "lat": 7.9864527,
+  "lng": 117.0647312
+ },
+ "San Vicente, Palawan, Philippines": {
+  "lat": 10.5270058,
+  "lng": 119.2562819
+ },
+ "El Nido, Palawan, Philippines": {
+  "lat": 11.1800395,
+  "lng": 119.390496
+ },
+ "Port Barton, San Vicente, Palawan, Philippines": {
+  "lat": 10.4114,
+  "lng": 119.1779622
+ },
+ "Puerto Princesa / El Nido, Palawan, Philippines": {
+  "lat": 11.1645444,
+  "lng": 119.3984299
+ },
+ "Cagayancillo, Sulu Sea, Palawan, Philippines": null,
+ "Cagayancillo, Sulu Sea, Philippines": null,
+ "Palawan, Philippines": {
+  "lat": 11.0798978,
+  "lng": 120.9373422
+ },
+ "El Nido / private islands, Palawan, Palawan, Philippines": null,
+ "El Nido / private islands, Palawan, Philippines": null,
+ "Palawan Wildlife Rescue and Conservation Center, Puerto Princesa, Palawan, Philippines": null,
+ "Palawan Wildlife Rescue and Conservation Center, Puerto Princesa, Philippines": {
+  "lat": 9.7990093,
+  "lng": 118.6957192
+ },
+ "Cuyo, Palawan, Philippines": {
+  "lat": 10.8551218,
+  "lng": 121.008475
+ },
+ "Twin Lagoon, Coron Island, Palawan, Philippines": null,
+ "Twin Lagoon, Coron Island, Philippines": null,
+ "Miniloc Island, El Nido, Palawan, Philippines": {
+  "lat": 11.1507033,
+  "lng": 119.3159674
+ },
+ "Barracuda Lake, Coron Island, Palawan, Philippines": null,
+ "Barracuda Lake, Coron Island, Philippines": null,
+ "Kayangan Lake, Coron Island, Palawan, Philippines": null,
+ "Kayangan Lake, Coron Island, Philippines": null,
+ "El Nido to Coron, Palawan, Philippines": null,
+ "El Nido to Coron, Philippines": null,
+ "Calauit Island, Busuanga, Palawan, Philippines": {
+  "lat": 12.2961563,
+  "lng": 119.8964069
+ },
+ "Iwahig River, Puerto Princesa, Palawan, Philippines": null,
+ "Iwahig River, Puerto Princesa, Philippines": {
+  "lat": 9.7303948,
+  "lng": 118.6588687
+ },
+ "Mt. Mantalingajan, Rizal, Palawan, Philippines": null,
+ "Mt. Mantalingajan, Rizal, Philippines": null,
+ "Lipuun Point, Quezon, Palawan, Philippines": {
+  "lat": 9.2733863,
+  "lng": 117.9806483
+ },
+ "Rasa Island Wildlife Sanctuary, Narra, Palawan, Philippines": null,
+ "Rasa Island Wildlife Sanctuary, Narra, Philippines": null,
+ "Tubbataha Reefs Natural Park, Sulu Sea, Palawan, Philippines": null,
+ "Tubbataha Reefs Natural Park, Sulu Sea, Philippines": null,
+ "Sabang, Puerto Princesa Subterranean River NP, Palawan, Philippines": null,
+ "Sabang, Puerto Princesa Subterranean River NP, Philippines": null,
+ "Puerto Princesa, Palawan, Palawan, Philippines": {
+  "lat": 9.7805207,
+  "lng": 118.7301426
+ },
+ "Tagabinet, Puerto Princesa, Palawan, Philippines": {
+  "lat": 10.0873652,
+  "lng": 118.8553271
+ },
+ "Coron, Palawan, Palawan, Philippines": {
+  "lat": 11.9985507,
+  "lng": 120.2051611
+ },
+ "Puerto Princesa (Sabang), Palawan, Philippines": null,
+ "Puerto Princesa (Sabang), Philippines": {
+  "lat": 10.1755289,
+  "lng": 118.9088491
+ },
+ "Tubbataha Reefs, Apo Reef, Coron Bay, Palawan, Occidental Mindoro, Philippines": null,
+ "Tubbataha Reefs, Apo Reef, Coron Bay, Philippines": null,
+ "Palawan, Occidental Mindoro, Philippines": {
+  "lat": 12.8453333,
+  "lng": 120.7789102
+ },
+ "Mabalacat City, Pampanga, Philippines": {
+  "lat": 15.2441214,
+  "lng": 120.5644379
+ },
+ "San Fernando, Pampanga, Philippines": {
+  "lat": 15.0283014,
+  "lng": 120.6938038
+ },
+ "Arayat, Pampanga, Philippines": {
+  "lat": 15.1504805,
+  "lng": 120.772694
+ },
+ "Porac and Cavite race venues, Pampanga, Philippines": null,
+ "Porac and Cavite race venues, Philippines": null,
+ "Pampanga, Philippines": {
+  "lat": 15.0519635,
+  "lng": 120.6445398
+ },
+ "15 city legs, National Finals in Clark, Pampanga, Philippines": null,
+ "15 city legs, National Finals in Clark, Philippines": null,
+ "Clark Global City, Pampanga, Philippines": {
+  "lat": 15.1820288,
+  "lng": 120.5760436
+ },
+ "San Fernando, Pampanga, Pampanga, Philippines": {
+  "lat": 15.0283014,
+  "lng": 120.6938038
+ },
+ "City of San Fernando, Pampanga, Philippines": {
+  "lat": 15.0283014,
+  "lng": 120.6938038
+ },
+ "Candaba Swamp, Candaba, Pampanga, Philippines": null,
+ "Candaba Swamp, Candaba, Philippines": null,
+ "Guagua, Pampanga, Philippines": {
+  "lat": 14.9654074,
+  "lng": 120.6336297
+ },
+ "San Pedro Cutud, City of San Fernando, Pampanga, Philippines": {
+  "lat": 15.0169968,
+  "lng": 120.6916473
+ },
+ "Angeles City, Pampanga, Philippines": {
+  "lat": 15.1702098,
+  "lng": 120.6104261
+ },
+ "Lubao, Pampanga, Philippines": {
+  "lat": 14.9378136,
+  "lng": 120.600497
+ },
+ "Magalang, Pampanga, Pampanga, Philippines": {
+  "lat": 15.2140936,
+  "lng": 120.6616332
+ },
+ "Clark Freeport Zone, Pampanga, Philippines": {
+  "lat": 15.1810682,
+  "lng": 120.5274286
+ },
+ "Kusinang Matua ng Atching Lillian, Mexico, Pampanga, Philippines": null,
+ "Kusinang Matua ng Atching Lillian, Mexico, Philippines": null,
+ "San Fernando eateries, Pampanga, Philippines": null,
+ "San Fernando eateries, Philippines": null,
+ "Patar Beach, Bolinao, Pangasinan, Philippines": {
+  "lat": 16.303544,
+  "lng": 119.7810115
+ },
+ "Manaoag, Pangasinan, Philippines": {
+  "lat": 16.0435664,
+  "lng": 120.4873292
+ },
+ "Dagupan, Pangasinan, Philippines": {
+  "lat": 16.043021,
+  "lng": 120.3337627
+ },
+ "Dagupan City, Pangasinan, Philippines": {
+  "lat": 16.0431813,
+  "lng": 120.3341895
+ },
+ "Silaqui Island, Bolinao (UP Marine Lab), Pangasinan, Philippines": null,
+ "Silaqui Island, Bolinao (UP Marine Lab), Philippines": null,
+ "Pangasinan, Philippines": {
+  "lat": 15.916667,
+  "lng": 120.333333
+ },
+ "San Carlos City, Pangasinan, Philippines": {
+  "lat": 15.9260531,
+  "lng": 120.3464235
+ },
+ "Alaminos, Pangasinan, Philippines": {
+  "lat": 16.1553857,
+  "lng": 119.9792201
+ },
+ "Urdaneta City, Pangasinan, Philippines": {
+  "lat": 15.9759995,
+  "lng": 120.5668992
+ },
+ "Lucban, Quezon, Philippines": {
+  "lat": 14.114401,
+  "lng": 121.55486
+ },
+ "Real, Quezon, Philippines": {
+  "lat": 14.6644775,
+  "lng": 121.604365
+ },
+ "Sariaya, Quezon, Philippines": {
+  "lat": 13.9629837,
+  "lng": 121.5243402
+ },
+ "Dolores, Quezon, Philippines": {
+  "lat": 14.0170009,
+  "lng": 121.4016469
+ },
+ "Tayabas, Quezon, Philippines": {
+  "lat": 14.0263471,
+  "lng": 121.5918364
+ },
+ "Lucena, Quezon, Philippines": {
+  "lat": 13.9676187,
+  "lng": 121.5625343
+ },
+ "Tiaong, Quezon, Philippines": {
+  "lat": 13.9596673,
+  "lng": 121.3222989
+ },
+ "Quezon province, Quezon, Philippines": {
+  "lat": 13.9627602,
+  "lng": 121.5616072
+ },
+ "Jomalig Island, Quezon, Philippines": {
+  "lat": 14.7042488,
+  "lng": 122.3819036
+ },
+ "Polillo Islands, Quezon, Philippines": {
+  "lat": 14.8428945,
+  "lng": 121.9292963
+ },
+ "Cagbalete Island, Mauban, Quezon, Philippines": {
+  "lat": 14.2770606,
+  "lng": 121.8229426
+ },
+ "Aglipay, Quirino, Philippines": {
+  "lat": 16.4907744,
+  "lng": 121.585819
+ },
+ "Governor's Rapids, Maddela, Quirino, Philippines": null,
+ "Governor's Rapids, Maddela, Philippines": null,
+ "Quirino, Philippines": {
+  "lat": 16.283333,
+  "lng": 121.583333
+ },
+ "Siitan River, Nagtipunan, Quirino, Philippines": null,
+ "Siitan River, Nagtipunan, Philippines": null,
+ "Baras, Rizal, Philippines": {
+  "lat": 14.5218512,
+  "lng": 121.2658068
+ },
+ "Angono, Rizal, Philippines": {
+  "lat": 14.5258481,
+  "lng": 121.1529683
+ },
+ "Angono-Binangonan Petroglyphs, Binangonan, Rizal, Philippines": null,
+ "Angono-Binangonan Petroglyphs, Binangonan, Philippines": null,
+ "Rizal, Philippines": {
+  "lat": 14.65,
+  "lng": 121.25
+ },
+ "Mt. Daraitan, Tanay, Rizal, Philippines": {
+  "lat": 14.6039733,
+  "lng": 121.4292931
+ },
+ "Tanay, Rizal, Philippines": {
+  "lat": 14.4985359,
+  "lng": 121.2856331
+ },
+ "Antipolo, Rizal, Philippines": {
+  "lat": 14.5871972,
+  "lng": 121.1759246
+ },
+ "San Mateo, Rizal, Rizal, Philippines": {
+  "lat": 14.6951949,
+  "lng": 121.1174024
+ },
+ "Marikina–Infanta Highway, Antipolo to Tanay, Rizal, Philippines": null,
+ "Marikina–Infanta Highway, Antipolo to Tanay, Philippines": null,
+ "Bonbon Beach, Romblon town, Romblon, Philippines": null,
+ "Bonbon Beach, Romblon town, Philippines": null,
+ "Romblon, Philippines": {
+  "lat": 12.5,
+  "lng": 122.2
+ },
+ "Sibuyan Island, Romblon, Philippines": {
+  "lat": 12.3864421,
+  "lng": 122.5864285
+ },
+ "Cresta de Gallo, San Fernando, Sibuyan Island, Romblon, Philippines": null,
+ "Cresta de Gallo, San Fernando, Sibuyan Island, Philippines": null,
+ "Calbiga, Samar, Philippines": {
+  "lat": 11.6274469,
+  "lng": 125.0170454
+ },
+ "Basey (Saob Cave weavers), Samar, Philippines": null,
+ "Basey (Saob Cave weavers), Philippines": null,
+ "Samar, Philippines": {
+  "lat": 11.7982219,
+  "lng": 125.1690418
+ },
+ "Marabut, Samar, Philippines": {
+  "lat": 11.1075601,
+  "lng": 125.2124996
+ },
+ "Basey, Samar, Philippines": {
+  "lat": 11.2799579,
+  "lng": 125.0692113
+ },
+ "Catbalogan City, Samar, Philippines": {
+  "lat": 11.7753308,
+  "lng": 124.883118
+ },
+ "Ulot River, Barangay Tenani, Paranas, Samar, Philippines": null,
+ "Ulot River, Barangay Tenani, Paranas, Philippines": null,
+ "Calbayog City, Samar, Philippines": {
+  "lat": 12.0669632,
+  "lng": 124.5946664
+ },
+ "Kiamba, Sarangani, Philippines": {
+  "lat": 5.9879555,
+  "lng": 124.6241575
+ },
+ "Gumasa Beach, Glan, Sarangani, Philippines": {
+  "lat": 5.7869443,
+  "lng": 125.1891326
+ },
+ "Pangi River, Maitum, Sarangani, Philippines": null,
+ "Pangi River, Maitum, Philippines": null,
+ "Sarangani, Philippines": {
+  "lat": 5.874722,
+  "lng": 125.275278
+ },
+ "Maasim, Sarangani, Philippines": {
+  "lat": 5.8610055,
+  "lng": 124.9967013
+ },
+ "Barangay Cantabon, Siquijor, Siquijor, Philippines": {
+  "lat": 9.1857725,
+  "lng": 123.5613283
+ },
+ "Lazi, Siquijor, Philippines": {
+  "lat": 9.1284365,
+  "lng": 123.6338696
+ },
+ "Lazi, Siquijor, Siquijor, Philippines": {
+  "lat": 9.1284365,
+  "lng": 123.6338696
+ },
+ "Maria, Salagdoong Beach, Siquijor, Philippines": null,
+ "Maria, Salagdoong Beach, Philippines": null,
+ "Siquijor, Philippines": {
+  "lat": 9.18,
+  "lng": 123.58
+ },
+ "Bulusan Volcano Natural Park, Sorsogon, Philippines": {
+  "lat": 12.7740788,
+  "lng": 124.0597601
+ },
+ "Donsol, Sorsogon, Philippines": {
+  "lat": 12.9077161,
+  "lng": 123.5986056
+ },
+ "Sorsogon City, Sorsogon, Philippines": {
+  "lat": 12.9707848,
+  "lng": 124.0052543
+ },
+ "T'boli School of Living Traditions, Lake Sebu, South Cotabato, Philippines": null,
+ "T'boli School of Living Traditions, Lake Sebu, Philippines": null,
+ "South Cotabato, Philippines": {
+  "lat": 6.2855239,
+  "lng": 124.9333096
+ },
+ "General Santos, South Cotabato, Philippines": {
+  "lat": 6.1122217,
+  "lng": 125.1721893
+ },
+ "Lake Sebu, South Cotabato, Philippines": {
+  "lat": 6.2260489,
+  "lng": 124.7123413
+ },
+ "Mt. Matutum, Tupi, South Cotabato, Philippines": {
+  "lat": 6.3600441,
+  "lng": 125.0761806
+ },
+ "Lake Holon, T'boli, South Cotabato, Philippines": {
+  "lat": 6.1008177,
+  "lng": 124.8884639
+ },
+ "Koronadal City, South Cotabato, Philippines": {
+  "lat": 6.5004041,
+  "lng": 124.8435437
+ },
+ "Maasin City, Southern Leyte, Philippines": {
+  "lat": 10.1325061,
+  "lng": 124.8385147
+ },
+ "Pintuyan, Panaon Island, Southern Leyte, Philippines": null,
+ "Pintuyan, Panaon Island, Philippines": null,
+ "Southern Leyte, Philippines": {
+  "lat": 10.3475099,
+  "lng": 125.1250896
+ },
+ "Sogod Bay, Padre Burgos, Southern Leyte, Philippines": {
+  "lat": 10.0480733,
+  "lng": 125.0263699
+ },
+ "Tacurong City, Sultan Kudarat, Philippines": {
+  "lat": 6.6935316,
+  "lng": 124.6756671
+ },
+ "General Luna, Siargao Island, Surigao del Norte, Philippines": null,
+ "General Luna, Siargao Island, Philippines": null,
+ "Surigao del Norte, Philippines": {
+  "lat": 9.7022868,
+  "lng": 125.5464831
+ },
+ "Lake Mainit, Surigao del Norte, Philippines": {
+  "lat": 9.4311677,
+  "lng": 125.5214569
+ },
+ "Del Carmen, Siargao Island, Surigao del Norte, Philippines": null,
+ "Del Carmen, Siargao Island, Philippines": null,
+ "Sohoton Cove, Bucas Grande, Surigao del Norte, Philippines": null,
+ "Sohoton Cove, Bucas Grande, Philippines": null,
+ "General Luna, Siargao, Surigao del Norte, Philippines": null,
+ "General Luna, Siargao, Philippines": null,
+ "Pilar, Siargao Island, Surigao del Norte, Philippines": null,
+ "Pilar, Siargao Island, Philippines": null,
+ "Surigao City, Surigao del Norte, Philippines": {
+  "lat": 9.7905028,
+  "lng": 125.4935697
+ },
+ "Cloud 9, San Juan, Sabang Beach, Surigao del Norte, La Union, Aurora, Philippines": null,
+ "Cloud 9, San Juan, Sabang Beach, Philippines": null,
+ "Surigao del Norte, La Union, Aurora, Philippines": null,
+ "San Agustin, Surigao del Sur, Philippines": {
+  "lat": 8.7432343,
+  "lng": 126.2212765
+ },
+ "Ayoke Island, Cantilan, Surigao del Sur, Philippines": {
+  "lat": 9.3916273,
+  "lng": 126.0512282
+ },
+ "Lanuza, Surigao del Sur, Philippines": {
+  "lat": 9.233675,
+  "lng": 126.0603779
+ },
+ "Tandag City, Surigao del Sur, Philippines": {
+  "lat": 9.0799833,
+  "lng": 126.1974606
+ },
+ "Hinatuan, Surigao del Sur, Philippines": {
+  "lat": 8.3656147,
+  "lng": 126.3358067
+ },
+ "Cagwait, Surigao del Sur, Philippines": {
+  "lat": 8.9182742,
+  "lng": 126.2982546
+ },
+ "Bislig City, Surigao del Sur, Philippines": {
+  "lat": 8.2130815,
+  "lng": 126.3156173
+ },
+ "Capas, Tarlac, Philippines": {
+  "lat": 15.3360344,
+  "lng": 120.589583
+ },
+ "New Clark City, Capas, Tarlac, Philippines": {
+  "lat": 15.3453785,
+  "lng": 120.5287671
+ },
+ "Tarlac City, Tarlac, Philippines": {
+  "lat": 15.4861218,
+  "lng": 120.5893473
+ },
+ "Turtle Islands Wildlife Sanctuary, Tawi-Tawi, Philippines": {
+  "lat": 6.1963385,
+  "lng": 118.3453092
+ },
+ "Sapa-Sapa, Tawi-Tawi, Tawi-Tawi, Philippines": {
+  "lat": 5.0901662,
+  "lng": 120.2733204
+ },
+ "Bongao, Tawi-Tawi, Tawi-Tawi, Philippines": {
+  "lat": 5.0289741,
+  "lng": 119.7713119
+ },
+ "Tubig Indangan, Simunul Island, Tawi-Tawi, Philippines": null,
+ "Tubig Indangan, Simunul Island, Philippines": null,
+ "Tawi-Tawi, Philippines": {
+  "lat": 5.2057,
+  "lng": 120.0265
+ },
+ "Bongao, Tawi-Tawi, Philippines": {
+  "lat": 5.0289741,
+  "lng": 119.7713119
+ },
+ "Remote islands such as Jomalig or Cresta de Gallo, Various, Philippines": null,
+ "Remote islands such as Jomalig or Cresta de Gallo, Philippines": null,
+ "Various, Philippines": null,
+ "Neighborhood panaderias nationwide, Various, Philippines": null,
+ "Neighborhood panaderias nationwide, Philippines": null,
+ "Plazas and school gates nationwide, Various, Philippines": null,
+ "Plazas and school gates nationwide, Philippines": null,
+ "Vigan, Alaminos, Cabanatuan, Lucban, Tuguegarao, Various, Philippines": null,
+ "Vigan, Alaminos, Cabanatuan, Lucban, Tuguegarao, Philippines": null,
+ "Luzon, Philippines": {
+  "lat": 15.5504104,
+  "lng": 120.7434436
+ },
+ "Filipino noche buena celebrations, Various, Philippines": null,
+ "Filipino noche buena celebrations, Philippines": null,
+ "San Antonio (Pundaquit), Zambales, Philippines": null,
+ "San Antonio (Pundaquit), Philippines": null,
+ "Zambales, Philippines": {
+  "lat": 15.23,
+  "lng": 120.12
+ },
+ "Olongapo City, Zambales, Philippines": {
+  "lat": 14.8250161,
+  "lng": 120.2777609
+ },
+ "Iba, Zambales, Philippines": {
+  "lat": 15.3264614,
+  "lng": 119.9801043
+ },
+ "Mt. Tapulao, Palauig, Zambales, Philippines": {
+  "lat": 15.4374556,
+  "lng": 120.0229502
+ },
+ "Subic, Zambales, Philippines": {
+  "lat": 14.8774796,
+  "lng": 120.2344695
+ },
+ "Silanguin Cove, San Antonio, Zambales, Philippines": null,
+ "Silanguin Cove, San Antonio, Philippines": null,
+ "Nagsasa Cove, San Antonio, Zambales, Philippines": null,
+ "Nagsasa Cove, San Antonio, Philippines": null,
+ "Subic Bay (airport coast road), Zambales, Philippines": null,
+ "Subic Bay (airport coast road), Philippines": null,
+ "Anawangin Cove, San Antonio, Zambales, Philippines": null,
+ "Anawangin Cove, San Antonio, Philippines": null,
+ "Subic Bay Freeport (former naval base forest), Zambales, Philippines": null,
+ "Subic Bay Freeport (former naval base forest), Philippines": null,
+ "Ipil, Zamboanga Sibugay, Philippines": {
+  "lat": 7.7821902,
+  "lng": 122.5867388
+ },
+ "Dapitan, Zamboanga del Norte, Philippines": {
+  "lat": 8.6549449,
+  "lng": 123.4243754
+ },
+ "Dapitan City, Zamboanga del Norte, Philippines": {
+  "lat": 8.6549449,
+  "lng": 123.4243754
+ },
+ "Dipolog City, Zamboanga del Norte, Philippines": {
+  "lat": 8.5863596,
+  "lng": 123.3448798
+ },
+ "Fort Pilar, Zamboanga City, Zamboanga del Sur, Philippines": null,
+ "Fort Pilar, Zamboanga City, Philippines": {
+  "lat": 6.9011733,
+  "lng": 122.0821895
+ },
+ "Paseo del Mar, Zamboanga City, Zamboanga del Sur, Philippines": null,
+ "Paseo del Mar, Zamboanga City, Philippines": {
+  "lat": 6.9003012,
+  "lng": 122.0811981
+ },
+ "Zamboanga City, Zamboanga del Sur, Philippines": {
+  "lat": 6.9013985,
+  "lng": 122.0821206
+ },
+ "Yakan Weaving Village, Upper Calarian, Zamboanga City, Zamboanga del Sur, Philippines": null,
+ "Yakan Weaving Village, Upper Calarian, Zamboanga City, Philippines": {
+  "lat": 6.9249101,
+  "lng": 122.022197
+ },
+ "Pagadian City, Zamboanga del Sur, Philippines": {
+  "lat": 7.8249717,
+  "lng": 123.4365816
+ },
+ "Great Santa Cruz Island, Zamboanga City, Zamboanga del Sur, Philippines": null,
+ "Great Santa Cruz Island, Zamboanga City, Philippines": {
+  "lat": 6.8653541,
+  "lng": 122.0635157
+ },
+ "Satti houses, Pilar Street, Zamboanga City, Zamboanga del Sur, Philippines": null,
+ "Satti houses, Pilar Street, Zamboanga City, Philippines": null,
+ "Zamboanga del Sur, Philippines": {
+  "lat": 7.9043,
+  "lng": 123.3194
+ },
+ "Halal eateries, Zamboanga City, Zamboanga del Sur, Philippines": null,
+ "Halal eateries, Zamboanga City, Philippines": null
+}
